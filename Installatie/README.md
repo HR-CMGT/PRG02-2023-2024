@@ -15,6 +15,8 @@
   - [Lesopdrachten](#lesopdrachten)
   - [Werkmap](#werkmap)
   - [Eindopdracht](#eindopdracht)
+- [GitHub Student Developer Pack](#github-student-developer-pack)
+  - [Domeinnaam](#domeinnaam)
 
 --------------------
 
@@ -158,3 +160,27 @@ Om ervoor te zorgen dat jouw project veilig is opgeslagen, voeg je deze toe aan 
 - Als het project open staat, klik je op _VCS > Share Project on Github_
 - Eventueel moet je hierna inloggen met je Github account.
 - Klik op Share en je project wordt geüpload naar Github.
+
+## GitHub Student Developer Pack
+
+Als onderdeel van de Github Student Pack heb je toegang tot allerlei gratis diensten, waaronder een gratis
+account op Github Pro. Hiermee kun je onbeperkt private repositories aanmaken. $200 aan gratis tegoed op
+Digital Ocean voor cloud hosting, een jaar lang gratis domeinnaam registratie op Namecheap en nog veel meer.
+
+- Om toegang te krijgen tot deze diensten, ga je naar [https://education.github.com/pack](https://education.github.com/pack)
+- Klik op _Get student benefits_
+- Kies voor _Student_
+- En gebruik het e-mailadres van de Hogeschool Rotterdam als je het account aanmaakt.
+
+### Domeinnaam
+
+Via the student pack kan je bij namecheap een domeinnaam (.me) registreren.
+ - bezoek https://nc.me/github/auth
+ - login met je Github account behorende bij het student pack (e-mailadres van de Hogeschool Rotterdam)
+ - Geef namecheap toegang tot je Github account
+ - Kies een domeinnaam en registreer deze
+ - Je hebt nu een domeinnaam die je kunt gebruiken voor je eindopdracht en deze kun je beheren in het [dashboard](https://ap.www.namecheap.com/).
+ - Klik op Domain List > Domain > Redirect domain. 
+ - bij Source url vul je je domeinnaam in (zonder http://) en bij Destination URL vul je het adres van je eindopdracht in.
+
+
