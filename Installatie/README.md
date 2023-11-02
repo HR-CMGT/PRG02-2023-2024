@@ -44,10 +44,11 @@ van de Hogeschool Rotterdam.
   Mocht je op de Mac de installer niet kunnen openen, dan kun je het volgende proberen:
   - Open Settings > Security & Privacy > Scroll naar Security > Kies "Open Anyway"
     ![open-anyway.png](images/open-anyway.png)
-  - Werkt dit nog niet? Voer dan het volgende commando uit in de terminal en probeer het opnieuw. 
-    (Let op het dubbele streepje voor master)
+  - Werkt dit nog niet? 
+    - Kopieer de "xampp-osx-8.2.4-0-installer" uit de diskimage naar je download folder
+    - en voer dan het volgende via Terminal.app uit:  
     ```bash
-    sudo spctl --master-disable
+    xattr -dr com.apple.quarantine ~/Downloads/xampp-osx-8.2.4-0-installer.app
     ```
 - Als er gevraagd wordt om de locatie te wijzigen, **doe dit niet**. Het is 
     belangrijk dat je XAMPP installeert in de map `C:\xampp`
