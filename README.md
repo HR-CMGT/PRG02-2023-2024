@@ -1,5 +1,7 @@
 # Programmeren 2 onderdeel van CMTTHE01-2
 
+[Installatiehandleiding](./Installatie)
+
 [Link naar Brightspace](https://brightspace.hr.nl/d2l/home/28859)
 
 Hier vind je alle informatie, lesopdrachten, oefeningen, startcode en uitwerkingen voor programmeren 2.
