@@ -106,6 +106,8 @@ Het is nu zaak om te zorgen dat je foutmeldingen te zien krijgt als er iets mis 
 - Open dit bestand in PHPStorm of in een TextEditor. 
 - Zoek op: _error_reporting=_
 - Zorg ervoor dat de waarde op **E_ALL** staat. Dit betekent dat alle fouten getoond worden.
+- Direct eronder staat display_errors. Zorg ervoor dat deze op **On** staat. 
+  Dit betekent dat de fouten ook daadwerkelijk getoond worden.
 - Sla het bestand op en herstart de Apache server. Pas na een restart is de wijziging actief.
 
 ### htdocs
