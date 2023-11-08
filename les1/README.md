@@ -16,7 +16,7 @@ _Maak een pagina die de bezoeker welkom heet en op basis van de tijd goedemorgen
 
 **Greetings (ontwerp tweetallen)**
 
-> Werk in tweetallen en één persoon beantwoordt de vragen in [Brigthspace](https://brightspace.hr.nl/d2l/le/lessons/28859/lessons/231512).
+> Werk in tweetallen en één persoon beantwoordt de vragen in [Brigthspace](https://brightspace.hr.nl/d2l/le/lessons/28859/topics/231583).
 >
 > 1.  Welke informatie / data heb je nodig als input voor deze opdracht?
 > 2.  Wat moet er stap voor stap gebeuren om het resultaat te bereiken? Let op! Je mag geen technische termen gebruiken het gaat om de functionaliteit.
@@ -41,7 +41,7 @@ De informatie komt uit een (associatieve) array, die je zelf hardcoded gevuld he
 
 **Index (ontwerp tweetallen)**
 
-> Werk in tweetallen en één persoon beantwoordt de vragen in [Brigthspace](https://brightspace.hr.nl/d2l/le/lessons/28859/lessons/231512).
+> Werk in tweetallen en één persoon beantwoordt de vragen in [Brigthspace](https://brightspace.hr.nl/d2l/le/lessons/28859/topics/236084).
 >
 > 1.  Welke informatie / data heb je nodig als input voor deze opdracht?
 > 2.  Wat moet er stap voor stap gebeuren om het resultaat te bereiken? Let op! Je mag geen technische termen gebruiken het gaat om de functionaliteit.
