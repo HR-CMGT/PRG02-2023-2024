@@ -32,8 +32,6 @@ Elke les bevat de volgende structuur:
   **Door in je browser naar deze map te navigeren, zie je de opdrachten van deze week.**
 - **start**
   Elke week werken we één of meerdere pagina's van de CRUD functionaliteiten uit. In deze map staat de startcode voor de taak / taken van die week.
-- **finished**
-  Wekelijks wordt er ook een finished folder toegevoegd met de uitwerkingen. Door een `git pull` uit te voeren, kan je deze per week binnenhalen.
 
 ## Werkomgeving
 
