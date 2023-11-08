@@ -1,6 +1,4 @@
-     Lesopdrachten week 4
-
-Overzicht van de lesopdrachten van les 4
+    Overzicht van de lesopdrachten van les 4
 
 Validatie
 =========
