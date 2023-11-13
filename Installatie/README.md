@@ -142,7 +142,7 @@ gaat maken en die je aan het einde van de cursus inlevert als eindopdracht.
 
 ### Werkmap
 
-- Maak een nieuwe map aan in de htdocs map en noem deze `werkmap`
+- Maak een nieuwe map aan in de htdocs map en noem deze `prg02-werkmap`
 - Wanneer je aan de lesopdrachten gaat werken, kopieer je de folder van de les naar deze map. 
   Zo kun je de lesopdrachten uitwerken zonder dat je de originele lesopdrachten aanpast.
 
@@ -150,7 +150,7 @@ gaat maken en die je aan het einde van de cursus inlevert als eindopdracht.
 
 - Ga in PhpStorm naar _File > New Project_
 - Kies voor empty PHP Project. 
-- Geef de folder de naam `eindopdracht`.
+- Geef de folder de naam `prg02-eindopdracht`.
 - En plaats deze in de htdocs folder.
   ![new project.png](images/new-project.png)
 - Klik op Create en je ziet nu een lege map met de naam eindopdracht.
