@@ -19,7 +19,7 @@ Onderwerpen die aan bod zullen komen zijn
 | 4    | [Les7](./les7) | Veel-op-veelrelaties                                                                     | SQL JOINS, LIKE, DELETE                                       | Delete.php                                 |                                               |
 |      | Les8           | Ondersteuning uitwerking                                                                 |                                                               |                                            | Vrijdag 17:00<br/>Screencast eindproduct      |
 
-Is bovenstaande je al bekend? Volg dan de [Advanced cursus](advanced)
+Is bovenstaande je al bekend? Volg dan de [Advanced cursus](advanced). Zie de cursushandleiding voor een beschrijving van de onderwerpen voor Advanced PHP.
 
 ## Lesmaterialen
 
@@ -35,14 +35,4 @@ Elke les bevat de volgende structuur:
 
 ## Werkomgeving
 
-- [PHPStorm](https://www.jetbrains.com/phpstorm/download/)
-  Je kunt voor PHPStorm een [account](https://www.jetbrains.com/shop/eform/students) krijgen met je HR-email.
-- Lokale webserver opzetten met [XAMPP](https://www.apachefriends.org/download.html).
-- Om up-to-date te blijven met deze repository heb je [GIT](https://git-scm.com/book/en/v2/Getting-Started-Installing-Git) nodig.
-
-**Clone maken van deze repository op jouw harde schijf**
-- Ga in PHPStorm naar Git > Clone
-- Url: **https://github.com/HR-CMGT/PRG02-2023-2024.git**
-- Directory: [Link naar htdocs in xampp folder]
-
-
+- Zie voor het installeren en configureren van alle tools de [Installatiehandleiding](./Installatie)
