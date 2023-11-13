@@ -7,6 +7,7 @@
 - [Installatie](#installatie)
   - [XAMPP](#xampp)
   - [Jetbrains Toolbox](#jetbrains-toolbox)
+  - [GIT](#git)
 - [Configuratie](#configuratie)
   - [PHP](#php)
   - [Error handling](#error-handling)
@@ -42,7 +43,6 @@ van de Hogeschool Rotterdam.
 ### XAMPP
 
 - Dubbelklik de installer
-  
   Mocht je op de Mac de installer niet kunnen openen, dan kun je het volgende proberen:
   - Open Settings > Security & Privacy > Scroll naar Security > Kies "Open Anyway"
     ![open-anyway.png](images/open-anyway.png)
@@ -55,6 +55,9 @@ van de Hogeschool Rotterdam.
 - Als er gevraagd wordt om de locatie te wijzigen, **doe dit niet**. Het is 
     belangrijk dat je XAMPP installeert in de map `C:\xampp`
 ![location](images/xampp2.jpg)
+- Het kan ook zijn dat je op windows de volgende melding krijgt. Omdat je XAMPP installeert
+    in de map `C:\xampp` is dit geen probleem. Je kunt deze warning negeren.
+  ![warning UAC](./images/warning-uac.png)
 - Wanneer er gevraagd wordt welke onderdelen je wilt installeren, zorg dan dat 
     de volgende onderdelen geselecteerd zijn (voor **Windows**):
     - Apache
@@ -76,13 +79,20 @@ van de Hogeschool Rotterdam.
 - Installeer PHPStorm vanuit de toolbox. Voer eventueel nogmaals je Jetbrains account in 
   als er bij het opstarten om gevraagd wordt.
 
+### GIT
+
+- **Windows**: Dubbelklik de installer en volg de stappen
+- **Mac**: De meeste Macs hebben GIT al geïnstalleerd. Open Terminal en typ `git --version`. 
+  Als je een versienummer ziet, is GIT al geïnstalleerd en kan je deze stap overslaan.
+  Zo niet, dan kun je GIT installeren via de [GIT website](https://git-scm.com/download/mac). Ik zou de Homebrew optie 
+  aanraden. Dit zal je op de Mac later ook nog nodig hebben. 
 --------------------
 
 ## Configuratie
 
 ### PHP
 
-- Open de XAMPP control panel
+- Open de XAMPP control panel (_Manager-osx_ op de Mac)
 - Start Apache en MySQL. 
   ![xampp control panel](images/xampp-control-panel.png)
   - Start Apache niet op? Sluit dan alle programma's die gebruik maken van poort 80. 
