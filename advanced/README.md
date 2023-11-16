@@ -13,7 +13,7 @@ in [PHP](https://www.php.net/). Onderwerpen die aan bod zullen komen zijn:
 | 3    | [Les5](./lesson5) | Aanvullende technieken voor complexere vraagstukken | Update<br/>Hidden field                                         | Zelfde pagina's volledig in OOP                                   | Zelfevaluatie beoordelingsmodel         |
 |      | [Les6](./lesson6) | Debugging van code                                  | Session, Cookie<br/>htmlentities(), mysqli_real_escape_string() | -                                                                 |                                         |
 | 4    | [Les7](./lesson7) | Toekomstige structuur richting frameworks           | SQL JOINS, LIKE, DELETE                                         | Toekomstbestendige structuur als framework                        |                                         |
-|      | [Les7](./lesson8) | Databaserelaties in code + ondersteuning            |                                                                 |                                                                   | Zondag 17:00<br/>Screencast eindproduct |
+|      | [Les8](./lesson8) | Databaserelaties in code + ondersteuning            |                                                                 |                                                                   | Zondag 17:00<br/>Screencast eindproduct |
 
 ## Werkomgeving
 
