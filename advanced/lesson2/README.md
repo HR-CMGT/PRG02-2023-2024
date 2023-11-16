@@ -44,7 +44,7 @@ Op beide pagina's komt een formulier te staan, zorg dat het volgende werkt:
 **Let op:** Er gebeurt nog helemaal niks met de verzonden data. Dit gaan we vanaf volgende les doen als
 we een database gaan toevoegen. Je hoeft dus geen aanpassing te doen in het JSON-bestand!!
 
-### Opdracht 3: Extends, interfaces & namespaces
+### Opdracht 3: Namespaces & interface toepassen
 
 Vanuit de gezamenlijke demo hebben we de student list voorzien van uitgebreidere technieken. De frontend
 is identiek gebleven, maar de code is verder geprofessionaliseerd. De uitwerking kun je terugvinden in
