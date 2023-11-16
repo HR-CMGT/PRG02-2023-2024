@@ -60,7 +60,7 @@
         <p>
             <em>
                 Maak een webpagina met de detailinformatie van een muziekalbum (details.php).
-                Voeg achter elk album op de <strong>indexpagina</strong> en detaillink toe. Deze verwijst naar
+                Voeg achter elk album op de <strong>indexpagina</strong> een detaillink toe. Deze verwijst naar
                 <code>details.php</code>, deze staat al klaar in de map <a href="../start/details.php">start</a>.
                 Alle albums verwijzen naar dezelfde details.php, maar tonen toch alleen de details van het album
                 waarop geklikt is
