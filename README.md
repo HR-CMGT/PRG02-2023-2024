@@ -8,18 +8,18 @@ Hier vind je alle informatie, lesopdrachten, oefeningen, startcode en uitwerking
 Binnen deze cursus leer je CRUD functionaliteit bouwen in een website met behulp van [PHP](https://www.php.net/).
 Onderwerpen die aan bod zullen komen zijn
 
-| Week | Les            | Onderwerpen                                                                              | Technieken                                                    | Producten                                  | Deadline                                      | 
-|------|----------------|------------------------------------------------------------------------------------------|---------------------------------------------------------------|--------------------------------------------|-----------------------------------------------|
-| 1    | [Les1](./les1) | Wat zijn een webserver, interpreter, request and response.<br/> Basic syntax in PHP      | Syntax PHP<br/>Datum en tijd                                       | (zonder db)<br/>Index.php                  |                                               |
-|      | [Les2](./les2) | Links<br/>Verwerken van formulieren                                                      | GET en POST<br/>While<br/>Postback                            | (zonder db)<br/>Details.php<br/>Create.php |                                               |
-| 2    | [Les3](./les3) | Wat is een database?<br/>Aanmaken van een database<br/>Ophalen van data uit een database | SQL SELECT<br/>ERD<br/>1-op-veel                              | Index.php<br/>Details.php                  |                                               |
-|      | [Les4](./les4) | ERD’s<br/>Invoegen van data                                                              | SQL INSERT en relaties<br/>Validatie                          | Create.php<br/>Delete.php                  | Donderdag 17:00<br/>Screencast in Brightspace |
-| 3    | [Les5](./les5) | Update actie en terugschrijven van data in formuliervelden<br/>Hidden field              | Update<br/>Hidden field                                       | Edit.php                                   | Maandag 09:00 peer-feedback op screencast     |
-|      | [Les6](./les6) | Authenticatie, login<br/>1-to-many relatie Foreign key<br/>Security                      | Session, Cookie<br/>htmlentities(), mysqli_real_escape_string()| Login.php<br/>Logout.php                   |                                               |
-| 4    | [Les7](./les7) | Veel-op-veelrelaties                                                                     | SQL JOINS, LIKE, DELETE                                       | Delete.php                                 |                                               |
-|      | Les8           | Ondersteuning uitwerking                                                                 |                                                               |                                            | Vrijdag 17:00<br/>Screencast eindproduct      |
+| Week | Les            | Onderwerpen                                                                              | Technieken                                                    | Producten                                  | Deadline                                | 
+|------|----------------|------------------------------------------------------------------------------------------|---------------------------------------------------------------|--------------------------------------------|-----------------------------------------|
+| 1    | [Les1](./les1) | Wat zijn een webserver, interpreter, request and response.<br/> Basic syntax in PHP      | Syntax PHP<br/>Datum en tijd                                       | (zonder db)<br/>Index.php                  |                                         |
+|      | [Les2](./les2) | Links<br/>Verwerken van formulieren                                                      | GET en POST<br/>While<br/>Postback                            | (zonder db)<br/>Details.php<br/>Create.php |                                         |
+| 2    | [Les3](./les3) | Wat is een database?<br/>Aanmaken van een database<br/>Ophalen van data uit een database | SQL SELECT<br/>ERD<br/>1-op-veel                              | Index.php<br/>Details.php                  |                                         |
+|      | [Les4](./les4) | ERD’s<br/>Invoegen van data                                                              | SQL INSERT en relaties<br/>Validatie                          | Create.php<br/>Delete.php                  |                                         |
+| 3    | [Les5](./les5) | Update actie en terugschrijven van data in formuliervelden<br/>Hidden field              | Update<br/>Hidden field                                       | Edit.php                                   | Zelfevaluatie beoordelingsmodel         |
+|      | [Les6](./les6) | Authenticatie, login<br/>1-to-many relatie Foreign key<br/>Security                      | Session, Cookie<br/>htmlentities(), mysqli_real_escape_string()| Login.php<br/>Logout.php                   |                                         |
+| 4    | [Les7](./les7) | Veel-op-veelrelaties                                                                     | SQL JOINS, LIKE, DELETE                                       | Delete.php                                 |                                         |
+|      | Les8           | Ondersteuning uitwerking                                                                 |                                                               |                                            | Zondag 17:00<br/>Screencast eindproduct |
 
-Is bovenstaande je al bekend? Volg dan de [Advanced cursus](advanced). Zie de cursushandleiding voor een beschrijving van de onderwerpen voor Advanced PHP.
+Is bovenstaande je al bekend? Volg dan de [Advanced cursus](advanced).
 
 ## Lesmaterialen
 
