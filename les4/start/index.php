@@ -1,7 +1,7 @@
 <?php
 /** @var array $musicAlbums */
 // Setup connection with database
-require_once 'includes/connection.php';
+require_once 'includes/database.php';
 
 // Select all the albums from the database
 
