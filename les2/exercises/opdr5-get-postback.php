@@ -29,7 +29,7 @@
         </p>
 
         <?php if ($code) { ?>
-            <p>
+            <p class="mt-2 is-size-4">
                 De code is: <?= $code ?>
             </p>
         <?php } else { ?>
