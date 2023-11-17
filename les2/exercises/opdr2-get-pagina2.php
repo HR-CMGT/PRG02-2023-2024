@@ -1,5 +1,5 @@
 <?php
-// Store the name of the selected pill in a variable and show this in de HTML
+// Store the name of the selected pill in a variable and show this in the HTML
 
 ?>
 <!doctype html>

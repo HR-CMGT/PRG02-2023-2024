@@ -60,7 +60,7 @@
         <p>
             <em>
                 Maak een webpagina met de detailinformatie van een muziekalbum (details.php).
-                Voeg achter elk album op de <strong>indexpagina</strong> en detaillink toe. Deze verwijst naar
+                Voeg achter elk album op de <strong>indexpagina</strong> een detaillink toe. Deze verwijst naar
                 <code>details.php</code>, deze staat al klaar in de map <a href="../start/details.php">start</a>.
                 Alle albums verwijzen naar dezelfde details.php, maar tonen toch alleen de details van het album
                 waarop geklikt is
@@ -223,13 +223,13 @@
             <strong>GET met Postback.</strong>
         </p>
         <blockquote>
-            Werk de <a href="opdr2-get-postback.php"><strong>opdracht GET met Postback</strong></a> uit.
+            Werk <a href="opdr5-get-postback.php"><strong>opdracht 5</strong></a> uit.
         </blockquote>
         <p>
             <strong>POST en GET met Postback op dezelfde pagina.</strong>
         </p>
         <blockquote>
-            Werk <a href="opdr5-post-en-get-postback.php"><strong>opdracht 5</strong></a> uit.
+            Werk <a href="opdr6-post-en-get-postback.php"><strong>opdracht 6</strong></a> uit.
         </blockquote>
     </div>
 </section>

@@ -72,7 +72,7 @@ $musicAlbums = [
         'year' => '2009',
         'tracks' => '15'
     ]
-]
+];
 ?>
 <!doctype html>
 <html lang="en">

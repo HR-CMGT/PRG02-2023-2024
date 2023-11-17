@@ -17,7 +17,7 @@ Detailpagina
 De details van een muziekalbum
 ------------------------------
 
-_Maak een webpagina met de detailinformatie van een muziekalbum (details.php). Voeg achter elk album op de **indexpagina** en detaillink toe. Deze verwijst naar `details.php`, deze staat al klaar in de map [start](../start/details.php). Alle albums verwijzen naar dezelfde details.php, maar tonen toch alleen de details van het album waarop geklikt is (op de indexpagina)_
+_Maak een webpagina met de detailinformatie van een muziekalbum (details.php). Voeg achter elk album op de **indexpagina** een detaillink toe. Deze verwijst naar `details.php`, deze staat al klaar in de map [start](../start/details.php). Alle albums verwijzen naar dezelfde details.php, maar tonen toch alleen de details van het album waarop geklikt is (op de indexpagina)_
 
 **Details (ontwerp tweetallen)**
 
@@ -84,8 +84,8 @@ Maak de onderstaande opdrachten om met verschillende onderwerpen te oefenen
 
 **GET met Postback.**
 
-> Werk de [**opdracht GET met Postback**](exercises/opdr2-get-postback.php) uit.
+> Werk [**opdracht 5**](exercises/opdr5-get-postback.php) uit.
 
 **POST en GET met Postback op dezelfde pagina.**
 
-> Werk [**opdracht 5**](exercises/opdr5-post-en-get-postback.php) uit.
+> Werk [**opdracht 6**](exercises/opdr6-post-en-get-postback.php) uit.
