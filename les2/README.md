@@ -84,7 +84,7 @@ Maak de onderstaande opdrachten om met verschillende onderwerpen te oefenen
 
 **GET met Postback.**
 
-> Werk [**opdracht 5 over GET met Postback**](exercises/opdr5-get-postback.php) uit.
+> Werk [**opdracht 5**](exercises/opdr5-get-postback.php) uit.
 
 **POST en GET met Postback op dezelfde pagina.**
 
