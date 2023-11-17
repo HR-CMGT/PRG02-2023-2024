@@ -223,13 +223,13 @@
             <strong>GET met Postback.</strong>
         </p>
         <blockquote>
-            Werk de <a href="opdr2-get-postback.php"><strong>opdracht GET met Postback</strong></a> uit.
+            Werk <a href="opdr5-get-postback.php"><strong>opdracht 5 over GET met Postback</strong></a> uit.
         </blockquote>
         <p>
             <strong>POST en GET met Postback op dezelfde pagina.</strong>
         </p>
         <blockquote>
-            Werk <a href="opdr5-post-en-get-postback.php"><strong>opdracht 5</strong></a> uit.
+            Werk <a href="opdr6-post-en-get-postback.php"><strong>opdracht 6</strong></a> uit.
         </blockquote>
     </div>
 </section>
