@@ -44,7 +44,7 @@
             </li>
         </ul>
         <blockquote>
-            In het bestand <a href="opdr1-validation.php">opdr1-validation.php</a> zie je een formulier. Zorg
+            In het bestand <a href="opdr1-validation.php" target="_blank">opdr1-validation.php</a> zie je een formulier. Zorg
             ervoor dat het formulier in PHP wordt gecontroleerd (dus niet met
             het attribuut <code>required</code> in de HTML). Wanneer het veld leeg gelaten wordt, moet er een
             foutmelding
@@ -100,7 +100,7 @@
             <ul>
                 <li>
                     Doorloop weer de drie vragen op
-                    <a href="https://brightspace.hr.nl/d2l/le/lessons/28859/topics/247561">Brightspace</a> (nu
+                    <a href="https://brightspace.hr.nl/d2l/le/lessons/28859/topics/247561" target="_blank">Brightspace</a> (nu
                     individueel). Bij
                     de laatste stap schrijf je de pseudocode.
                 </li>
@@ -129,7 +129,7 @@
         </p>
         <p>
             Loop je tegen een error aan, kijk dan of het <a
-                    href="https://brightspace.hr.nl/d2l/le/lessons/28859/units/231506">Debugstroomdiagram</a> je
+                    href="https://brightspace.hr.nl/d2l/le/lessons/28859/units/231506" target="_blank">Debugstroomdiagram</a> je
             kunt helpen.
         </p>
         <blockquote>
@@ -171,7 +171,7 @@
             </span>
         </p>
         <blockquote>
-            Maak het ERD voor bovenstaande case (bijv met <a href="https://drawsql.app/"
+            Maak het ERD voor bovenstaande case (bijvoorbeeld met <a href="https://drawsql.app/"
                                                              target="_blank">DrawSQL</a>).
             Let goed op dat de informatie in de juiste tabel wordt opgeslagen
             en op de notatie van de relaties.
