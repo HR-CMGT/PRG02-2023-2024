@@ -31,9 +31,9 @@
         </p>
 
         <blockquote>
-            <p>In <a href="opdr1-get-pagina1.html">pagina 1</a> staat een link die informatie moet doorgeven
+            <p>In <a href="opdr1-get-pagina1.html" target="_blank">pagina 1</a> staat een link die informatie moet doorgeven
                 naar
-                <a href="opdr1-get-pagina2.php">pagina 2</a>. Maak pagina1 kloppend zodat op pagina2 de tekst
+                <a href="opdr1-get-pagina2.php" target="_blank">pagina 2</a>. Maak pagina1 kloppend zodat op pagina2 de tekst
                 "Geweldig, het is
                 gelukt om de tag 'techniek' door te sturen." komt te staan.</p>
         </blockquote>
@@ -41,9 +41,9 @@
             <strong>Opdracht 2: Blue Pill or Red Pill?</strong>
         </p>
         <blockquote>
-            Op <a href="opdr2-get-pagina1.html">pagina 1</a> kun je klikken op de Blue Pill of de Red Pill. Maak
+            Op <a href="opdr2-get-pagina1.html" target="_blank">pagina 1</a> kun je klikken op de Blue Pill of de Red Pill. Maak
             zowel
-            <a href="opdr2-get-pagina1.html">pagina 1</a> als <a href="opdr2-get-pagina2.php">pagina2</a>
+            <a href="opdr2-get-pagina1.html" target="_blank">pagina 1</a> als <a href="opdr2-get-pagina2.php" target="_blank">pagina2</a>
             kloppend, zodat pagina2 de
             naam van de aangeklikte Pill laat zien.
         </blockquote>
@@ -61,7 +61,7 @@
             <em>
                 Maak een webpagina met de detailinformatie van een muziekalbum (details.php).
                 Voeg achter elk album op de <strong>indexpagina</strong> een detaillink toe. Deze verwijst naar
-                <code>details.php</code>, deze staat al klaar in de map <a href="../start/details.php">start</a>.
+                <code>details.php</code>, deze staat al klaar in de map <a href="../start/details.php" target="_blank">start</a>.
                 Alle albums verwijzen naar dezelfde details.php, maar tonen toch alleen de details van het album
                 waarop geklikt is
                 (op de indexpagina)
@@ -89,7 +89,7 @@
             <strong>Details (uitwerking individueel)</strong>
         </p>
         <blockquote>
-            Werk de <a href="../start"><strong>opdracht</strong></a> uit in je persoonlijke map in de htdocs
+            Werk de <a href="../start" target="_blank"><strong>opdracht</strong></a> uit in je persoonlijke map in de htdocs
             folder.
             De startcode staat in de map <code>start</code>.
         </blockquote>
@@ -109,9 +109,9 @@
 
         <blockquote>
             <p>
-                Pas <a href="opdr3-post-pagina1.html">pagina 1</a> aan zodat je ingevulde voornaam getoond wordt
+                Pas <a href="opdr3-post-pagina1.html" target="_blank">pagina 1</a> aan zodat je ingevulde voornaam getoond wordt
                 op
-                <a href="opdr3-post-pagina2.php">pagina 2</a>.
+                <a href="opdr3-post-pagina2.php" target="_blank">pagina 2</a>.
             </p>
         </blockquote>
         <p>
@@ -128,14 +128,14 @@
             Beantwoord voor deze opdracht eerst de drie vragen uit de werkmethode.
         </blockquote>
 
-        <p>Nadat je het ontwerp gemaakt hebt bepaal je per stap de techniek die je daarbij nodig hebt. Werk de
+        <p>Nadat je het ontwerp gemaakt hebt, bepaal je per stap de techniek die je daarbij nodig hebt. Werk de
             techniek stap voor stap uit en
             gebruik <code>print_r()</code> om informatie te loggen. Zo kan je zien of je de stap goed uitgewerkt
             hebt.</p>
         <blockquote>
             <p>
                 Zorg ervoor dat de data van het formulier verzonden wordt naar <a
-                        href="opdr4-post-postback.php">dezelfde pagina</a>.
+                        href="opdr4-post-postback.php" target="_blank">dezelfde pagina</a>.
                 Je kunt deze pagina dus op 2 manieren bezoeken
             </p>
             <ul>
@@ -145,7 +145,7 @@
                 </li>
             </ul>
             <p>
-                De functie <a href="https://www.php.net/manual/en/function.isset">isset()</a> kun je gebruiken
+                De functie <a href="https://www.php.net/manual/en/function.isset" target="_blank">isset()</a> kun je gebruiken
                 om te controleren of het
                 formulier verzonden is op de volgende manier:
             </p>
@@ -205,7 +205,7 @@
             <strong>Create (uitwerking individueel)</strong>
         </p>
         <blockquote>
-            Werk de <a href="../start"><strong>opdracht</strong></a> uit in je persoonlijke map in de htdocs
+            Werk de <a href="../start" target="_blank"><strong>opdracht</strong></a> uit in je persoonlijke map in de htdocs
             folder.
             De startcode staat in de map <code>start</code>.
         </blockquote>
@@ -223,13 +223,13 @@
             <strong>GET met Postback.</strong>
         </p>
         <blockquote>
-            Werk <a href="opdr5-get-postback.php"><strong>opdracht 5</strong></a> uit.
+            Werk <a href="opdr5-get-postback.php" target="_blank"><strong>opdracht 5</strong></a> uit.
         </blockquote>
         <p>
             <strong>POST en GET met Postback op dezelfde pagina.</strong>
         </p>
         <blockquote>
-            Werk <a href="opdr6-post-en-get-postback.php"><strong>opdracht 6</strong></a> uit.
+            Werk <a href="opdr6-post-en-get-postback.php" target="_blank"><strong>opdracht 6</strong></a> uit.
         </blockquote>
     </div>
 </section>

@@ -27,7 +27,7 @@
     <div class="content">
         <img src="words-table/words-table.png" alt="words table" style="width: 40%"/>
         <blockquote>
-            Werk de <a href="words-table/index.php"><strong>opdracht</strong></a> uit in je persoonlijke map in
+            Werk de <a href="words-table/index.php" target="_blank"><strong>opdracht</strong></a> uit in je persoonlijke map in
             de htdocs folder
         </blockquote>
     </div>
@@ -63,7 +63,7 @@
             <strong>Greetings (uitwerking individueel)</strong>
         </p>
         <blockquote>
-            Werk de <a href="greetings/index.php"><strong>opdracht</strong></a> uit in je persoonlijke map in de
+            Werk de <a href="greetings/index.php" target="_blank"><strong>opdracht</strong></a> uit in je persoonlijke map in de
             htdocs folder
         </blockquote>
     </div>
@@ -111,7 +111,7 @@
             <strong>Index (uitwerking individueel)</strong>
         </p>
         <blockquote>
-            Werk de <a href="../start/index.php"><strong>opdracht</strong></a> uit in je persoonlijke map in de
+            Werk de <a href="../start/index.php" target="_blank"><strong>opdracht</strong></a> uit in je persoonlijke map in de
             htdocs folder
         </blockquote>
     </div>
@@ -128,7 +128,7 @@
             <strong>Samenvoegen van string</strong>
         </p>
         <blockquote>
-            Werk de <a href="strings/index.php"><strong>opdracht</strong></a> uit uit de folder
+            Werk de <a href="strings/index.php" target="_blank"><strong>opdracht</strong></a> uit uit de folder
             <code>exercises/strings</code>
         </blockquote>
         <p>
@@ -136,7 +136,7 @@
         </p>
         <blockquote>
             <p>
-                Werk de <a href="date-time/index.php"><strong>opdracht</strong></a> uit uit de folder <code>exercises/date-time</code>
+                Werk de <a href="date-time/index.php" target="_blank"><strong>opdracht</strong></a> uit uit de folder <code>exercises/date-time</code>
             </p>
             <p>
                 Schrijf de **huidige** datum/tijd op het scherm in verschillende notaties:
@@ -151,7 +151,7 @@
             <strong>Zodiac Sign</strong>
         </p>
         <blockquote>
-            <p>Werk de <a href="zodiac-sign/index.php"><strong>opdracht</strong></a> uit uit de folder <code>exercises/zodiac-sign</code>
+            <p>Werk de <a href="zodiac-sign/index.php" target="_blank"><strong>opdracht</strong></a> uit uit de folder <code>exercises/zodiac-sign</code>
             </p>
 
             <p>Maak een webpagina die laat zien welk sterrenbeeld je hebt op basis van je verjaardag. Je
