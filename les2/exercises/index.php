@@ -176,7 +176,7 @@
                 gegevens van een album. De createpagina zal je nog in de map <strong>start</strong> moeten aanmaken.
                 Stuur de data van het formulier terug naar dezelfde pagina (Postback) en controleer of alle
                 velden zijn
-                ingevuld. Laat een notificatie zien als het bericht succesvol is toegevoegd.
+                ingevuld. Laat een notificatie zien als alle velden correct zijn ingevuld.
                 <br/>
                 Vind je dit lastig dan mag je ook een aparte pagina <code>(store.php)</code> maken die de
                 ingevuld
