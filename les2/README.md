@@ -61,7 +61,7 @@ Createpagina
 Het toevoegen van een nieuw muziekalbum
 ---------------------------------------
 
-_Voeg een "Create" link toe, boven de tabel op de indexpagina. Na het aanklikken van de link wordt de bijbehorende `create.php` geladen met een formulier waarvan de velden overeenkomen met de gegevens van een album. De createpagina zal je nog in de map start moeten aanmaken. Stuur de data van het formulier terug naar dezelfde pagina (Postback) en controleer of alle velden zijn ingevuld. Laat een notificatie zien als het bericht succesvol is toegevoegd.  
+_Voeg een "Create" link toe, boven de tabel op de indexpagina. Na het aanklikken van de link wordt de bijbehorende `create.php` geladen met een formulier waarvan de velden overeenkomen met de gegevens van een album. De createpagina zal je nog in de map **start** moeten aanmaken. Stuur de data van het formulier terug naar dezelfde pagina (Postback) en controleer of alle velden zijn ingevuld. Laat een notificatie zien als het bericht succesvol is toegevoegd.  
 Vind je dit lastig dan mag je ook een aparte pagina `(store.php)` maken die de ingevuld data laat zien._
 
 **Create (ontwerp tweetallen)**

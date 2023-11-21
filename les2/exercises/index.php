@@ -173,7 +173,7 @@
                 wordt de
                 bijbehorende <code>create.php</code> geladen met een formulier waarvan de velden overeenkomen
                 met de
-                gegevens van een album. De createpagina zal je nog in de map start moeten aanmaken.
+                gegevens van een album. De createpagina zal je nog in de map <strong>start</strong> moeten aanmaken.
                 Stuur de data van het formulier terug naar dezelfde pagina (Postback) en controleer of alle
                 velden zijn
                 ingevuld. Laat een notificatie zien als het bericht succesvol is toegevoegd.
