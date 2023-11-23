@@ -20,7 +20,7 @@ Om goed te weten hoe je zelf aan verder kunt, is het aan te raden deze code te l
 Neem de overgenomen code door om er zeker van te zijn dat je die snapt. Zet waar nodig comments in
 je code met vragen voor de docent zodat je die kunt bespreken.
 
-### Opdracht 2: Database aanmaken via phpMyAdmin
+### Opdracht 2: Database aanmaken via phpMyAdmin & koppelen met phpStorm
 
 Na de demo kun je zelf aan de slag met databases via PDO. Voordat we de code ingaan ga je eerst
 een database aanmaken met 1 tabel als startpunt van de opdracht.
@@ -28,6 +28,9 @@ een database aanmaken met 1 tabel als startpunt van de opdracht.
 - Maak een nieuwe database 'music_collection' aan via phpMyAdmin
 - Maak een nieuwe table aan genaamd 'albums' met de juiste kolommen
 - Vul een aantal rijen zodat je data hebt om straks in te laden
+- **PRO TIP:** Koppel je database in phpStorm zodat je rechtstreeks vanuit 1 omgeving
+  zowel bij je code als je database kunt. Extra voordeel is dat je ook autocompletion
+  op je queries krijgt!
 
 ### Opdracht 3: Index & Detail koppelen aan database
 
