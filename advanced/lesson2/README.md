@@ -24,13 +24,13 @@ je code met vragen voor de docent zodat je die kunt bespreken.
 |:---------------------------------------------:| 
 |             *Muziekalbums index*              |
 
-| ![Muziekalbums index](music-albums-create.png) | 
-|:----------------------------------------------:| 
-|             *Muziekalbums create*              |
+| ![Muziekalbums create](music-albums-create.png) | 
+|:-----------------------------------------------:| 
+|              *Muziekalbums create*              |
 
-| ![Muziekalbums index](music-albums-edit.png) | 
-|:--------------------------------------------:| 
-|             *Muziekalbums edit*              |
+| ![Muziekalbums edit](music-albums-edit.png) | 
+|:-------------------------------------------:| 
+|             *Muziekalbums edit*             |
 
 Voeg binnen de bestaande structuur 2 pagina's toe. We hebben nu een index en een detail, maak nu ook
 een create en edit pagina aan. Zie bovenstaande afbeeldingen voor de precieze werking van de vragen.
@@ -51,6 +51,7 @@ is identiek gebleven, maar de code is verder geprofessionaliseerd. De uitwerking
 de [example](example) map van deze week.
 
 Pas nu zelf in je eigen muziekalbums opdracht de volgende technieken toe:
+
 - Deel je classes op in mappen (en dus namespaces!). Categoriseer ze zodat op zo'n manier dat je voor
   jouw gevoel op een logische plaatst staan.
 - Herschrijf je validatie uit vorige opdracht. Maak een 'Validator' interface en zorg dat je een 'AlbumValidator'
