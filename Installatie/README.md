@@ -70,7 +70,13 @@ van de Hogeschool Rotterdam.
   - XAMPP Core Files
   
   ![location](images/xampp1.jpg)
-    
+
+Tip: Zorg er voor dat het XAMPP Controle Panel altijd maar 1 x draait. Wanneer je in je system tray kijkt
+kan je daar het oranje icoontje van XAMPP zien. Als deze er al staat, **start het Control Panel
+<u>niet</u> nog een keer**! Doe je dit wel, dan is de kans groot dat je database corrupt raakt en
+zal je stappen uit de [XAMPP Hotline](./XAMPP-HOTLINE.md) moeten ondernemen.
+
+![IpcHw.png](images%2FIpcHw.png)
 
 ### Jetbrains Toolbox
 
@@ -195,4 +201,13 @@ Via the student pack kan je bij namecheap een domeinnaam (.me) registreren.
  - Klik op Domain List > Domain > Redirect domain. 
  - bij Source url vul je je domeinnaam in (zonder http://) en bij Destination URL vul je het adres van je eindopdracht in.
 
+### Cloud Hosting
 
+Nadat je je hebt aangemeld voor het Student Developer Pack, kun je een gratis account aanmaken op Digital Ocean.
+
+- Ga naar [https://www.digitalocean.com/github-students](https://www.digitalocean.com/github-students)
+- Klik op _Redeem your DigitalOcean credit_
+- Log in met je Github account (gebruik de knop _Sign up with Github_)
+- _Authenticate with GitHub_ en geef Digital Ocean toegang om je e-mailadres uit te lezen.
+- Je hebt nu je eigen cloud hosting account.
+- Deze kun je bezoeken via [https://cloud.digitalocean.com](https://cloud.digitalocean.com)

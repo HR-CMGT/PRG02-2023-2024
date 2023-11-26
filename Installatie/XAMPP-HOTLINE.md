@@ -4,6 +4,13 @@ Deze pagina is bedoeld als eerstelijns hulp bij problemen met XAMPP. Hopelijk ku
 je probleem verhelpen en weer verder met je werk. Mocht je toch nog tegen problemen aanlopen, zoek
 dan zo snel mogelijk contact met je eigen docent.
 
+![IpcHw.png](images%2FIpcHw.png)
+
+Tip: Zorg er voor dat het XAMPP Controle Panel altijd maar 1 x draait. Wanneer je in je system tray kijkt
+kan je daar het oranje icoontje van XAMPP zien. Als deze er al staat, **start het Control Panel 
+<u>niet</u> nog een keer**! Doe je dit wel, dan is de kans groot dat je database corrupt raakt en 
+zal je stappen hieronder nodig hebben. 
+
 | ![XAMPP data folder](images/xampp-taskbar-quit.png) | 
 |:---------------------------------------------------:| 
 |          *XAMPP afsluiten via je taskbar*           |
