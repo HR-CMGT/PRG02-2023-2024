@@ -51,7 +51,7 @@ require_once 'includes/connection.php';
                         <td><?= $album['genre'] ?></td>
                         <td><?= $album['year'] ?></td>
                         <td><?= $album['tracks'] ?></td>
-                        <td><a href="details.php?id=<?= $album['album_id'] ?>">Details</a></td>
+                        <td><a href="details.php?id=<?= $album['id'] ?>">Details</a></td>
                     </tr>
                 <?php } ?>
                 </tbody>
