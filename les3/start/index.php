@@ -1,5 +1,6 @@
 <?php
-/** @var array $musicAlbums */
+/** @var mysqli $db */
+
 // Setup connection with database
 require_once 'includes/connection.php';
 
