@@ -5,7 +5,7 @@
     <meta name="viewport"
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Lesopdrachten week 3</title>
+    <title>Lesopdrachten les 3</title>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
 </head>
@@ -31,7 +31,7 @@
             database
             nodig. Er is al een database aangemaakt en deze is geëxporteerd in de vorm van een <code>.sql</code>
             bestand met de
-            naam: <a href="music_collection.sql" download>music_collection.sql</a> (in de map week3/exercises)
+            naam: <a href="music_collection.sql" download>music_collection.sql</a> (in de map les3/exercises)
         </p>
         <blockquote>
             <ul>
@@ -192,7 +192,7 @@
         <blockquote>
             Kijk nu of je dit zelf kunt uitbreiden door de informatie ook op te slaan in je database via een
             INSERT-query.
-            (komt volgende week terug in de les!)
+            (komt volgende keer terug in de les!)
         </blockquote>
         <p>
             <strong>Database voor eindopdracht</strong>

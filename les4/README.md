@@ -11,7 +11,7 @@ In deze opdracht ga je ervoor zorgen dat verzonden informatie in een formulier v
 Technieken die je hierbij nodig hebt zijn:
 
 *   Postback, meer info is te vinden in het [filmpje over Post en Postback](https://brightspace.hr.nl/d2l/le/lessons/28859/topics/244606) van les 2. [Code voorbeeld](../../les2/examples/) in `les2/examples`
-*   Validatie, [voorbeeld](../../les4/examples/validation) van deze week in `week4/examples/validation`
+*   Validatie, [voorbeeld](../../les4/examples/validation) van deze les in `les4/examples/validation`
 
 > In het bestand [opdr1-validation.php](opdr1-validation.php) zie je een formulier. Zorg ervoor dat het formulier in PHP wordt gecontroleerd (dus niet met het attribuut `required` in de HTML). Wanneer het veld leeg gelaten wordt, moet er een foutmelding in de HTML getoond worden.
 
@@ -43,7 +43,7 @@ De stappen bedenken voordat je ze in code gaat schrijven
 --------------------------------------------------------
 
 > *   Doorloop weer de drie vragen op [Brightspace](https://brightspace.hr.nl/d2l/le/lessons/28859/topics/247561) (nu individueel). Bij de laatste stap schrijf je de pseudocode.
-> *   Neem de pseudocode over in je editor en plaats deze als comments bovenaan de create.php pagina van `week4/start/create.php`
+> *   Neem de pseudocode over in je editor en plaats deze als comments bovenaan de create.php pagina van `les4/start/create.php`
 
 Createpagina
 ============

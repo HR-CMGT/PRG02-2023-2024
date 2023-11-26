@@ -31,9 +31,9 @@ Elke les bevat de volgende structuur:
   In een versimpelde vorm, staan hier uitgewerkte voorbeelden uit de les met uitleg (comments).
 - **exercises**
   Opdrachten die in de les of als huiswerk gemaakt kunnen worden.<br/>
-  **Door in je browser naar deze map te navigeren, zie je de opdrachten van deze week.**
+  **Door in je browser naar deze map te navigeren, zie je de opdrachten van die les.**
 - **start**
-  Elke week werken we één of meerdere pagina's van de CRUD functionaliteiten uit. In deze map staat de startcode voor de taak / taken van die week.
+  Elke les werken we één of meerdere pagina's van de CRUD functionaliteiten uit. In deze map staat de startcode voor de taak / taken van die les.
 
 ## Werkomgeving
 

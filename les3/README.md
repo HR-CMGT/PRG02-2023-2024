@@ -8,7 +8,7 @@ Het importeren van een database en het ophalen van informatie
 
 **Database importeren**
 
-In deze opdracht ga je oefenen met het ophalen van data uit de database. Hiervoor heb je eerst een database nodig. Er is al een database aangemaakt en deze is geëxporteerd in de vorm van een `.sql` bestand met de naam: [music\_collection.sql](music_collection.sql) (in de map week3/exercises)
+In deze opdracht ga je oefenen met het ophalen van data uit de database. Hiervoor heb je eerst een database nodig. Er is al een database aangemaakt en deze is geëxporteerd in de vorm van een `.sql` bestand met de naam: [music\_collection.sql](music_collection.sql) (in de map les3/exercises)
 
 > *   Zorg ervoor dat (in XAMPP) de Apache en SQL server aanstaan
 > *   Download [music\_collection.sql](./exercises/music_collection.sql)
@@ -77,7 +77,7 @@ Klaar met bovenstaande opdrachten? Ga met (één van) de volgende zaken verder:
 
 **Toevoegen aan de database**
 
-> Kijk nu of je dit zelf kunt uitbreiden door de informatie ook op te slaan in je database via een INSERT-query. (komt volgende week terug in de les!)
+> Kijk nu of je dit zelf kunt uitbreiden door de informatie ook op te slaan in je database via een INSERT-query. (komt volgende keer terug in de les!)
 
 **Database voor eindopdracht**
 

@@ -48,7 +48,7 @@ we een database gaan toevoegen. Je hoeft dus geen aanpassing te doen in het JSON
 
 Vanuit de gezamenlijke demo hebben we de student list voorzien van uitgebreidere technieken. De frontend
 is identiek gebleven, maar de code is verder geprofessionaliseerd. De uitwerking kun je terugvinden in
-de [example](example) map van deze week.
+de [example](example) map van deze les.
 
 Pas nu zelf in je eigen muziekalbums opdracht de volgende technieken toe:
 

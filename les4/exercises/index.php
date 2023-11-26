@@ -7,7 +7,7 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
-    <title>Lesopdrachten week 4</title>
+    <title>Lesopdrachten les 4</title>
 </head>
 <body>
 <section class="hero is-primary">
@@ -39,8 +39,8 @@
                 <a href="../../les2/examples/" target="_blank">Code voorbeeld</a> in <code>les2/examples</code>
             </li>
             <li>
-                Validatie, <a href="../../les4/examples/validation" target="_blank">voorbeeld</a> van deze week
-                in <code>week4/examples/validation</code>
+                Validatie, <a href="../../les4/examples/validation" target="_blank">voorbeeld</a> van deze les
+                in <code>les4/examples/validation</code>
             </li>
         </ul>
         <blockquote>
@@ -107,7 +107,7 @@
                 <li>
                     Neem de pseudocode over in je editor en plaats deze als comments bovenaan de create.php
                     pagina
-                    van <code>week4/start/create.php</code>
+                    van <code>les4/start/create.php</code>
                 </li>
             </ul>
         </blockquote>

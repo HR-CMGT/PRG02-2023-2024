@@ -1,4 +1,4 @@
-# Advanced week 4
+# Advanced les 4
 
 ## Onderwerpen
 
@@ -53,7 +53,7 @@ een [voorbeeld](example/templating) uitgewerkt met templates waarin je terug kun
 
 ### Opdracht 4: Werken aan eindopdracht
 
-Met de opgedane kennis, en beschikbare tijd tot de deadline, is het verstandig deze week aan je eindopdracht
+Met de opgedane kennis, en beschikbare tijd tot de deadline, is het verstandig deze les aan je eindopdracht
 te starten. Maak voor jezelf logische keuzes:
 
 - Starten met je opdracht, wat zijn logische eerste stappen?
