@@ -47,7 +47,7 @@ require_once 'includes/connection.php';
                     <tr>
                         <td><?= $index + 1 ?></td>
                         <td><?= $album['artist'] ?></td>
-                        <td><?= $album['album'] ?></td>
+                        <td><?= $album['name'] ?></td>
                         <td><?= $album['genre'] ?></td>
                         <td><?= $album['year'] ?></td>
                         <td><?= $album['tracks'] ?></td>

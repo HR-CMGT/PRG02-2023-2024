@@ -1,5 +1,6 @@
 <?php
-/** @var array $musicAlbums */
+/** @var mysqli $db */
+
 // Setup connection with database
 require_once 'includes/database.php';
 
@@ -46,7 +47,7 @@ require_once 'includes/database.php';
                     <tr>
                         <td><?= $index + 1 ?></td>
                         <td><?= $album['artist'] ?></td>
-                        <td><?= $album['album'] ?></td>
+                        <td><?= $album['name'] ?></td>
                         <td><?= $album['genre'] ?></td>
                         <td><?= $album['year'] ?></td>
                         <td><?= $album['tracks'] ?></td>
