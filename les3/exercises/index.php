@@ -164,9 +164,8 @@
             <strong>Images</strong>
         </p>
         <blockquote>
-            Voeg aan de indexpagina en/of aan de detailpagina een afbeelding toe van het album. Een aantal
-            afbeeldingen
-            staan in de map <code>start/images</code>.
+            Voeg aan de indexpagina en/of aan de detailpagina een afbeelding toe van het album. Hou er rekening mee
+            dat afbeeldingen niet als BLOB in de database komen, maar dat je de link naar de afbeelding als tekst opslaat.
         </blockquote>
         <p>
             <strong>Pagination</strong>
