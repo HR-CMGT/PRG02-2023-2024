@@ -31,9 +31,9 @@ Open [PhpMyAdmin](http://localhost/phpmyadmin/) en klik op de database [music\_c
 > *   year: 1973
 > *   tracks: 9
 
-Klik nu op de tab 'Insert' / 'Invoegen'
+Klik nu op de tab 'Insert' / 'Invoegen'.
 
-> Voeg hier een album naar keuze toe d.m.v. het formulier.  
+> Voeg hier een album naar keuze toe d.m.v. het formulier (voer de `id` niet in).
 > Zie je een groene balk met de tekst: '1 row inserted.' / '1 rij toegevoegd.', dan is het gelukt. Hieronder staat een query. Vergelijk deze query met jouw query.
 
 Pseudocode create.php
