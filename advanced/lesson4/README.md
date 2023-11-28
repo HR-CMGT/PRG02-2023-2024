@@ -50,6 +50,9 @@ een [voorbeeld](example/templating) uitgewerkt met templates waarin je terug kun
 - Bouw je initialize om zodat deze gebruik maakt van de GET-parameter genaamd `_url`
 - Laad de juiste pages aan juiste template in op basis van deze waarde
 - Toon een 404 template als de waarde niet bestaat
+- **Nice to have:** Je kunt je eigen hostname aanmaken zodat je bv. op `http://my-awesome-project.localhost` kunt
+  werken. Daarmee heb je geen last van subpaden, maar werk je rechtstreeks in de root zoals bij echte websites ook
+  het geval is. Zie [uitleg hoe dit in te stellen](example/templating/README.md)
 
 ### Opdracht 4: Werken aan eindopdracht
 
