@@ -20,7 +20,7 @@
 <section class="section">
     <h1 class="title">Validatie</h1>
     <h2 class="subtitle">
-        Server-side controle op velden uit een formulier
+        Opdracht 1: Server-side controle op velden uit een formulier
     </h2>
     <div class="content">
         <p class="mb-4">
@@ -56,7 +56,7 @@
 <section class="section">
     <h1 class="title">SQL: INSERT query</h1>
     <h2 class="subtitle">
-        Het toevoegen van een nieuw item aan de database
+        Opdracht 2: Het toevoegen van een nieuw item aan de database
     </h2>
     <div class="content">
         <p class="mb-4">
@@ -93,7 +93,7 @@
 <section class="section">
     <h1 class="title">Pseudocode create.php</h1>
     <h2 class="subtitle">
-        De stappen bedenken voordat je ze in code gaat schrijven
+        Opdracht 3: De stappen bedenken voordat je ze in code gaat schrijven
     </h2>
     <div class="content">
         <blockquote>
@@ -117,7 +117,7 @@
 <section class="section has-background-primary-light">
     <h1 class="title">Createpagina</h1>
     <h2 class="subtitle">
-        Het toevoegen van een nieuw album aan de database
+        Opdracht 4: Het toevoegen van een nieuw album aan de database
     </h2>
     <div class="content">
         <p class="mb-4">
@@ -156,7 +156,7 @@
 <section class="section">
     <h1 class="title">Entity Relationship Diagram</h1>
     <h2 class="subtitle">
-        Hulpmiddel bij het ontwerpen van de database
+        Opdracht 5: Hulpmiddel bij het ontwerpen van de database
     </h2>
     <div class="content">
         <p class="mb-4">
@@ -183,7 +183,7 @@
 <section class="section">
     <h1 class="title">Verder werken</h1>
     <h2 class="subtitle">
-        Klaar met bovenstaande opdrachten? Ga met (één van) de volgende zaken verder:
+        Opdracht 6: Klaar met bovenstaande opdrachten? Ga met (één van) de volgende zaken verder:
     </h2>
     <div class="content">
         <p>

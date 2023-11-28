@@ -3,7 +3,7 @@
 Validatie
 =========
 
-Server-side controle op velden uit een formulier
+Opdracht 1: Server-side controle op velden uit een formulier
 ------------------------------------------------
 
 In deze opdracht ga je ervoor zorgen dat verzonden informatie in een formulier valide is. De enige veilige plek om dit te controleren is op de server. In dit geval zal je dat dus met PHP moeten doen.
@@ -18,7 +18,7 @@ Technieken die je hierbij nodig hebt zijn:
 SQL: INSERT query
 =================
 
-Het toevoegen van een nieuw item aan de database
+Opdracht 2: Het toevoegen van een nieuw item aan de database
 ------------------------------------------------
 
 Open [PhpMyAdmin](http://localhost/phpmyadmin/) en klik op de database [music\_collection](http://localhost/phpmyadmin/index.php?route=/database/sql&db=music_collection) en vervolgens op de tabel [albums](http://localhost/phpmyadmin/index.php?route=/table/sql&db=music_collection&table=albums). Klik vervolgens op de tab 'SQL'.
@@ -39,7 +39,7 @@ Klik nu op de tab 'Insert' / 'Invoegen'.
 Pseudocode create.php
 =====================
 
-De stappen bedenken voordat je ze in code gaat schrijven
+Opdracht 3: De stappen bedenken voordat je ze in code gaat schrijven
 --------------------------------------------------------
 
 > *   Doorloop weer de drie vragen op [Brightspace](https://brightspace.hr.nl/d2l/le/lessons/28859/topics/247561) (nu individueel). Bij de laatste stap schrijf je de pseudocode.
@@ -48,7 +48,7 @@ De stappen bedenken voordat je ze in code gaat schrijven
 Createpagina
 ============
 
-Het toevoegen van een nieuw album aan de database
+Opdracht 4: Het toevoegen van een nieuw album aan de database
 -------------------------------------------------
 
 Je hebt nu alle ingrediënten om de createpagina te kunnen maken. Gebruik bij de uitwerking de pseudocode uit de vorige opdracht. Werk je code stap voor stap uit (dus per regel comment) en test elke stap of deze werkt. Ga dan pas verder met de volgende regel.
@@ -65,7 +65,7 @@ Loop je tegen een error aan, kijk dan of het [Debugstroomdiagram](https://bright
 Entity Relationship Diagram
 ===========================
 
-Hulpmiddel bij het ontwerpen van de database
+Opdracht 5: Hulpmiddel bij het ontwerpen van de database
 --------------------------------------------
 
 Gegeven is het volgende:  
@@ -76,7 +76,7 @@ De case betreft een factureringssysteem. Elke factuur bevat producten. Ook staat
 Verder werken
 =============
 
-Klaar met bovenstaande opdrachten? Ga met (één van) de volgende zaken verder:
+Opdracht 6: Klaar met bovenstaande opdrachten? Ga met (één van) de volgende zaken verder:
 -----------------------------------------------------------------------------
 
 **Validatie per veld**
