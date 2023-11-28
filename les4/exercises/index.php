@@ -79,9 +79,9 @@
             </ul>
         </blockquote>
 
-        Klik nu op de tab 'Insert' / 'Invoegen'
+        Klik nu op de tab 'Insert' / 'Invoegen'.
         <blockquote>
-            Voeg hier een album naar keuze toe d.m.v. het formulier.
+            Voeg hier een album naar keuze toe d.m.v. het formulier (voer de <strong>id</strong> niet in).
             <br>
             Zie je een groene balk met de tekst: '1 row inserted.' / '1 rij toegevoegd.', dan is het gelukt.
             Hieronder staat een query. Vergelijk
