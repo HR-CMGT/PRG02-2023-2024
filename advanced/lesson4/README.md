@@ -14,9 +14,9 @@
 Om tijdens het werken met (vele) classes niet meer bezig te hoeven zijn met handmatige require statements,
 kun je de auto loader van composer gebruiken. Dit is de hoofdreden waarvoor we composer nu toepassen.
 
-Een ander, in de praktijk meest gebruikte, reden om composer te gebruiken is het downloaden van packages.
+Een andere, in de praktijk meest gebruikte, reden om composer te gebruiken is het downloaden van packages.
 Pakketjes code die door andere ontwikkelaars zijn geschreven die jij zo in je eigen project kunt inladen
-en gebruiken.
+en gebruiken. Op https://packagist.org/ kun je al die packages vinden!
 
 - Ga naar https://getcomposer.org/ en installeer composer op je eigen machine
 - Na installatie heb je het `composer` commando tot je beschikking op je computer. Dit commando heb je nodig
