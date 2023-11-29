@@ -1,7 +1,5 @@
     Lesopdrachten week 5
 
-Overzicht van de lesopdrachten van les 5
-
 ### Opdracht 1: Form data vullen
 
 In deze opdracht ga je ervoor zorgen dat de inhoud van een formulier gevuld wordt op basis van een meegestuurd id (GET methode).
