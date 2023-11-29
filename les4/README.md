@@ -69,7 +69,7 @@ Opdracht 5: Hulpmiddel bij het ontwerpen van de database
 --------------------------------------------
 
 Gegeven is het volgende:  
-De case betreft een factureringssysteem. Elke factuur bevat producten. Ook staat er van elk product aangegeven hoeveel keer deze besteld is en de prijs per product. Bovenaan de factuur staat de naam en het banknummer van de klant en onderaan het totaalbedrag van alle bestelde producten bij elkaar.
+De case betreft een webshop waarbij gebruikers producten kunnen bestellen. Elke order bevat 1 of meerdere producten. Ook staat bij elke order opgeslagen hoe vaak elk product besteld is en de volgorde waarin de producten besteld zijn. Bovenaan de order staat de naam en het banknummer van de klant en onderaan het totaalbedrag van alle bestelde producten bij elkaar.
 
 > Maak het ERD voor bovenstaande case (bijv met [DrawSQL](https://drawsql.app/)). Let goed op dat de informatie in de juiste tabel wordt opgeslagen en op de notatie van de relaties.
 
