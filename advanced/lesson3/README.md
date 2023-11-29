@@ -62,7 +62,7 @@ create als editpagina relevant.
 Nu we alle queries voor **CRU** hebben geschreven, moeten we alleen de "**D**" nog toevoegen.
 
 - Voeg een kolom toe aan de tabel naast 'detail' en 'edit' waarin de 'delete' knop komt te staan
-- Als je hierop klikt, wordt het album aan de database verwijderd
+- Als je hierop klikt, wordt het album uit de database verwijderd
 
 ### (Optioneel) Opdracht 6: Afbeeldingen
 

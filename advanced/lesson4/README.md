@@ -14,9 +14,9 @@
 Om tijdens het werken met (vele) classes niet meer bezig te hoeven zijn met handmatige require statements,
 kun je de auto loader van composer gebruiken. Dit is de hoofdreden waarvoor we composer nu toepassen.
 
-Een ander, in de praktijk meest gebruikte, reden om composer te gebruiken is het downloaden van packages.
+Een andere, in de praktijk meest gebruikte, reden om composer te gebruiken is het downloaden van packages.
 Pakketjes code die door andere ontwikkelaars zijn geschreven die jij zo in je eigen project kunt inladen
-en gebruiken.
+en gebruiken. Op https://packagist.org/ kun je al die packages vinden!
 
 - Ga naar https://getcomposer.org/ en installeer composer op je eigen machine
 - Na installatie heb je het `composer` commando tot je beschikking op je computer. Dit commando heb je nodig
@@ -50,6 +50,9 @@ een [voorbeeld](example/templating) uitgewerkt met templates waarin je terug kun
 - Bouw je initialize om zodat deze gebruik maakt van de GET-parameter genaamd `_url`
 - Laad de juiste pages aan juiste template in op basis van deze waarde
 - Toon een 404 template als de waarde niet bestaat
+- **Nice to have:** Je kunt je eigen hostname aanmaken zodat je bv. op `http://my-awesome-project.localhost` kunt
+  werken. Daarmee heb je geen last van subpaden, maar werk je rechtstreeks in de root zoals bij echte websites ook
+  het geval is. Zie [uitleg hoe dit in te stellen](example/templating/README.md)
 
 ### Opdracht 4: Werken aan eindopdracht
 
