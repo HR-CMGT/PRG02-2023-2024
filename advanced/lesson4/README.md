@@ -28,6 +28,13 @@ en gebruiken. Op https://packagist.org/ kun je al die packages vinden!
   Besef je goed dat je zelf altijd `composer install` moet draaien als je die code ergens neerzet omdat de
   `vendor` map niet in Git mag komen te staan.
 
+In de demo van de les hebben we het volgende gedaan:
+- `composer init` voor het genereren van een composer project;
+- De autoload waarde ingesteld (zie hiervoor [het voorbeeld](example/students_composer)) op de namespace waarin
+  al onze code te vinden is;
+- `composer install` gedraaid om de vendor map te verkrijgen waarin de autoloader staat;
+- De require_once statements in de initialize vervangen door de require van het autoload bestand.
+
 ### Opdracht 2: Code lezen en vragen stellen
 
 Kopieer de [uitwerking](../lesson3/assignment) naar je eigen werkmap (in de map "music-collection"
