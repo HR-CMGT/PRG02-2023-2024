@@ -29,6 +29,8 @@ en gebruiken. Op https://packagist.org/ kun je al die packages vinden!
   `vendor` map niet in Git mag komen te staan.
 
 In de demo van de les hebben we het volgende gedaan:
+- Terminal open in phpStorm zodat we composer kunnen gebruiken;
+- Via `cd` kun je navigeren naar de juiste map waar je het composer project wilt initialiseren;
 - `composer init` voor het genereren van een composer project;
 - De autoload waarde ingesteld (zie hiervoor [het voorbeeld](example/students_composer)) op de namespace waarin
   al onze code te vinden is;
