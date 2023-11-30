@@ -9,7 +9,7 @@
 
 ## Opdrachten
 
-### Opdracht 1: Code lezen en vragen stellen
+### Opdracht 1: Code lezen en vragen stellen (klassikaal)
 
 Kopieer de [uitwerking](../lesson4/assignment) naar je eigen werkmap (in de map "music-collection"
 die je afgelopen les hebt aangemaakt) en overschrijf je eigen uitwerking. Hiermee heb je weer een
@@ -19,16 +19,31 @@ Om goed te weten hoe je zelf aan verder kunt, is het aan te raden deze code te l
 Neem de overgenomen code door om er zeker van te zijn dat je die snapt. Zet waar nodig comments in
 je code met vragen voor de docent zodat je die kunt bespreken.
 
-**Let op:** Besef je ook goed dat je voor jezelf de instellingen in settings.php moet aanpassen naar de
-waardes die voor jouw omgeving kloppen!
+**Let op:** We doen deze oefening klassikaal. Besef je ook goed dat je voor jezelf de instellingen
+in settings.php moet aanpassen naar de waardes die voor jouw omgeving kloppen!
 
 > **Keuze:** Elke van onderstaande opdrachten mag je natuurlijk ook gelijk toepassen binnen je
 > eindopdracht. Vanuit de les blijven we binnen de context van de muziekalbums.
 
-### Opdracht 2: Toevoegen login/logout/register
+### Opdracht 2: Refactoren 'pages' naar classes
 
-Zorg ervoor dat je de functionaliteit van het inloggen en uitloggen gaat koppelen aan je muziekalbums.
-Je hebt hiervoor sessions nodig als techniek.
+De overgebleven map die nog niet OOP werkt is de 'pages' map. Die staat er nu nog een beetje los bij,
+maar alle code hierin kan ook in Classes opgelost worden. In plaats van dat je in de initialize een
+'pages' bestand required, kun je hier ook een Class initialiseren en aanroepen.
+
+Probeer het bestand voor bestand aan te pakken en begin met de index. Zet deze om naar een Class, je
+kunt hiervoor alle geleerde theorie rondom OOP-technieken toepassen. Onderstaande mappenstructuur zou
+het eindresultaat van je refactoring kunnen zijn:
+
+| ![Muziekalbums folder structure](music-albums-folder-structure.png) | 
+|:-------------------------------------------------------------------:| 
+|                   *Muziekalbums mappenstructuur*                    |
+
+### Opdracht 3: Omzetten login/logout naar eigen opdracht
+
+Zorg ervoor dat je de functionaliteit van het inloggen en uitloggen gaat koppelen aan je eindopdracht.
+Je hebt hiervoor sessions nodig als techniek. Ter info hieronder nog even hoe we het voor de opdracht
+van de muziekalbums hebben gedaan:
 
 | ![Muziekalbums login](music-albums-login.png) | 
 |:---------------------------------------------:| 
@@ -44,32 +59,18 @@ Je hebt hiervoor sessions nodig als techniek.
 - Voor het registeren kun je een registratiepagina maken. Echter mag je in deze content ook een stukje
   code gebruiken hiervoor zonder template. Dus als je in je URL naar /register gaat dat er in de code
   een nieuwe gebruiker wordt aangemaakt, maar in de frontend niks gebeurd. De reden dat je dit via code
-  moet doen is dat het wachtwoord via een hash aan de database moet worden teogevoegd, dit kan enkel
+  moet doen is dat het wachtwoord via een hash aan de database moet worden toegevoegd, dit kan enkel
   op een veilige manier via PHP zelf.
-
-### Opdracht 3: Refactoren 'pages' naar classes
-
-De overgebleven map die nog niet OOP werkt is de 'pages' map. Die staat er nu nog een beetje los bij,
-maar alle code hierin kan ook in Classes opgelost worden. In plaats van dat je in de initialize een
-'pages' bestand required, kun je hier ook een Class initialiseren en aanroepen.
-
-Probeer het bestand voor bestand aan te pakken en begin met de index. Zet deze om naar een Class, je
-kunt hiervoor alle geleerde theorie rondom OOP-technieken toepassen. Onderstaande mappenstructuur zou
-het eindresultaat van je refactoring kunnen zijn:
-
-| ![Muziekalbums folder structure](music-albums-folder-structure.png) | 
-|:-------------------------------------------------------------------:| 
-|                   *Muziekalbums mappenstructuur*                    |
 
 ### Opdracht 4: Logging van Errors
 
 Tot nu toe werden onze errors getoond op het scherm. Direct zichtbaar voor jou als eindgebruiker.
-Daaraan zitten uiteraard risico's verbonden. Het belangrijkste risico is dat je daarmee een potentiele
+Daaraan zitten uiteraard risico's verbonden. Het belangrijkste risico is dat je daarmee een potentiële
 hacker eel informatie geeft over jouw systeem en hoe jouw mappen/bestanden zijn ingericht. Iemand die
 kwaad wil kan hier misbruik van maken.
 
 Zorg ervoor dat je op het scherm enkel nog een melding ziet als 'Er is helaas iets fout gegaan', en dat
-de echte error wordt opgeslagen in een `.log` bestandje in je logs maps (zie mappenstructuur hierboven)
+de echte error wordt opgeslagen in een `.log` bestandje in je logs map (zie mappenstructuur hierboven)
 
 Je kunt onderstaande class gebruiken als Logger om het toe te passen. Kijk zelf wel goed dat je hiervoor
 nog de missende constante moet toevoegen aan je settings bestand, en check ook op de namespaces kloppen
