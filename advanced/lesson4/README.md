@@ -7,7 +7,11 @@
 - [PSR-4 - Autoloader](http://www.php-fig.org/psr/psr-4/)
 - [Templating Explained](https://www.daggerhartlab.com/create-simple-php-templating-function/)
 
-## Opdracht
+## Opdrachten
+
+> Let op! Als je op dit moment moeite ondervindt met bepaalde concepten in de basis, bekijk dan ook de 
+> Video's die in de regulier les worden gebruikt op Brightspace! Hier worden bepaalde concepten zeer 
+> helden en uitgebreid toegelicht.
 
 ### Opdracht 1: Installeren composer
 
@@ -41,7 +45,7 @@ een [voorbeeld](example/students_composer) uitgewerkt met composer waarin je ter
 
 - Implementeer composer in dit project om te zorgen dat alle losse require statements er niet meer inzitten
 
-### (Optioneel) Opdracht 4: Muziekalbums templates
+### Opdracht 4: Muziekalbums templates
 
 Momenteel zijn er nog 5 hoofdbestanden in ons project (index, detail, create, edit, delete). In de les hebben we
 een [voorbeeld](example/templating) uitgewerkt met templates waarin je terug kunt kijken hoe het werkt.
@@ -54,7 +58,7 @@ een [voorbeeld](example/templating) uitgewerkt met templates waarin je terug kun
   werken. Daarmee heb je geen last van subpaden, maar werk je rechtstreeks in de root zoals bij echte websites ook
   het geval is. Zie [uitleg hoe dit in te stellen](example/templating/README.md)
 
-### Opdracht 4: Werken aan eindopdracht
+### Opdracht 5: Werken aan eindopdracht
 
 Met de opgedane kennis, en beschikbare tijd tot de deadline, is het verstandig deze les aan je eindopdracht
 te starten. Maak voor jezelf logische keuzes:
