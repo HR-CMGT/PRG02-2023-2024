@@ -1,0 +1,16 @@
+{
+    "name": "antwanvandermooren/students_composer",
+    "type": "project",
+    "autoload": {
+        "psr-4": {
+            "StudentsList\\": "includes/classes/StudentsList/"
+        }
+    },
+    "authors": [
+        {
+            "name": "antwanvdm",
+            "email": "antwanvdm@gmail.com"
+        }
+    ],
+    "require": {}
+}
