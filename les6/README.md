@@ -16,8 +16,7 @@ Je krijgt een setje met regels pseudo code. Al deze regels bij elkaar vormen de 
 
 In deze opdracht wordt de pagina gemaakt waarin een nieuwe gebruiker zich kan registeren. Hiervoor is het nodig dat er
 in de database een tabel is voor `users`. De sql om de tabel aan te maken kan je vinden in het
-bestand [users.sql](./exercises/users.sql) in deze map. Je zal deze tabel moeten toevoegen aan een specifieke database.
-Je kunt deze tabel ook toevoegen aan de database van het reserveringssysteem.
+bestand [users.sql](./exercises/users.sql) in deze map. Je zal deze tabel moeten toevoegen aan de `music_collection` database.
 
 * Klik op de specifieke database waar je de tabel aan toe wilt voegen. Let op dat er nog geen tabel 'users' is.
 * Klik op 'import' en selecteer het bestand [users.sql](./exercises/users.sql)
