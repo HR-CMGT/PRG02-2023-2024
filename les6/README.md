@@ -27,7 +27,7 @@ Je kunt deze tabel ook toevoegen aan de database van het reserveringssysteem.
 > gebruiker in de database komt te staan. Let op, het wachtwoord moet veilig opgeslagen worden. Dit doe je met de
 > functie `password_hash()`.  
 > Deze functie kan je overnemen in PHPStorm. Wanneer je met je muis over de functie hovert, zie je hoe je de functie
-> moet gerbuiken.
+> moet gebruiken.
 
 * * *
 

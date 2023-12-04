@@ -44,19 +44,37 @@ if(isset($_POST['submit'])) {
             <section class="columns">
                 <form class="column is-6" action="" method="post">
 
-                    <!-- Name -->
+                    <!-- First name -->
                     <div class="field is-horizontal">
                         <div class="field-label is-normal">
-                            <label class="label" for="name">Name</label>
+                            <label class="label" for="firstName">First name</label>
                         </div>
                         <div class="field-body">
                             <div class="field">
                                 <div class="control has-icons-left">
-                                    <input class="input" id="name" type="text" name="name" value="<?= $name ?? '' ?>" />
+                                    <input class="input" id="firstName" type="text" name="firstName" value="<?= $firstName ?? '' ?>" />
                                     <span class="icon is-small is-left"><i class="fas fa-envelope"></i></span>
                                 </div>
                                 <p class="help is-danger">
-                                    <?= $errors['name'] ?? '' ?>
+                                    <?= $errors['firstName'] ?? '' ?>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Last name -->
+                    <div class="field is-horizontal">
+                        <div class="field-label is-normal">
+                            <label class="label" for="lastName">Last name</label>
+                        </div>
+                        <div class="field-body">
+                            <div class="field">
+                                <div class="control has-icons-left">
+                                    <input class="input" id="lastName" type="text" name="lastName" value="<?= $lastName ?? '' ?>" />
+                                    <span class="icon is-small is-left"><i class="fas fa-envelope"></i></span>
+                                </div>
+                                <p class="help is-danger">
+                                    <?= $errors['lastName'] ?? '' ?>
                                 </p>
                             </div>
                         </div>
