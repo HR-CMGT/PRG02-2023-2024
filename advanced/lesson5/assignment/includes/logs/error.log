@@ -1,0 +1,23 @@
+[19-12-2022 22:24] move_uploaded_file(./images/c162f8e9ec2488025f7307a2f7bc51a13c1fc914.jpg): Failed to open stream: Permission denied on line 55 of /Applications/XAMPP/xamppfiles/htdocs/PRG02-2022-2023/advanced/week5/assignment/includes/classes/System/Utils/Image.php
+[19-12-2022 22:25] Attempt to read property "artist" on bool on line 18 of /Applications/XAMPP/xamppfiles/htdocs/PRG02-2022-2023/advanced/week5/assignment/includes/templates/album/detail.php
+[19-12-2022 22:30] DB Error: ID 40 is not available in the table albums on line 176 of /Applications/XAMPP/xamppfiles/htdocs/PRG02-2022-2023/advanced/week5/assignment/includes/classes/System/Databases/BaseObject.php
+[19-12-2022 22:30] Attempt to read property "artist" on bool on line 23 of /Applications/XAMPP/xamppfiles/htdocs/PRG02-2022-2023/advanced/week5/assignment/includes/templates/album/edit.php
+[19-12-2022 22:30] DB Error: ID 40 is not available in the table albums on line 176 of /Applications/XAMPP/xamppfiles/htdocs/PRG02-2022-2023/advanced/week5/assignment/includes/classes/System/Databases/BaseObject.php
+[19-12-2022 22:31] DB Error: ID 14 is not available in the table albums on line 176 of /Applications/XAMPP/xamppfiles/htdocs/PRG02-2022-2023/advanced/week5/assignment/includes/classes/System/Databases/BaseObject.php
+[19-12-2022 22:31] Undefined array key "id" on line 93 of /Applications/XAMPP/xamppfiles/htdocs/PRG02-2022-2023/advanced/week5/assignment/includes/classes/System/Handlers/AlbumHandler.php
+[19-12-2022 22:32] DB Error: ID 14 is not available in the table albums on line 176 of /Applications/XAMPP/xamppfiles/htdocs/PRG02-2022-2023/advanced/week5/assignment/includes/classes/System/Databases/BaseObject.php
+[19-12-2022 22:32] Undefined array key "id" on line 93 of /Applications/XAMPP/xamppfiles/htdocs/PRG02-2022-2023/advanced/week5/assignment/includes/classes/System/Handlers/AlbumHandler.php
+[19-12-2022 22:33] Undefined array key "id" on line 93 of /Applications/XAMPP/xamppfiles/htdocs/PRG02-2022-2023/advanced/week5/assignment/includes/classes/System/Handlers/AlbumHandler.php
+[19-12-2022 22:33] Undefined array key "id" on line 93 of /Applications/XAMPP/xamppfiles/htdocs/PRG02-2022-2023/advanced/week5/assignment/includes/classes/System/Handlers/AlbumHandler.php
+[19-12-2022 22:33] Undefined array key "id" on line 93 of /Applications/XAMPP/xamppfiles/htdocs/PRG02-2022-2023/advanced/week5/assignment/includes/classes/System/Handlers/AlbumHandler.php
+[19-12-2022 22:33] Undefined array key "id" on line 93 of /Applications/XAMPP/xamppfiles/htdocs/PRG02-2022-2023/advanced/week5/assignment/includes/classes/System/Handlers/AlbumHandler.php
+[19-12-2022 22:33] Undefined array key "id" on line 93 of /Applications/XAMPP/xamppfiles/htdocs/PRG02-2022-2023/advanced/week5/assignment/includes/classes/System/Handlers/AlbumHandler.php
+[19-12-2022 22:35] Undefined array key "id" on line 140 of /Applications/XAMPP/xamppfiles/htdocs/PRG02-2022-2023/advanced/week5/assignment/includes/classes/System/Handlers/AlbumHandler.php
+[19-12-2022 22:35] Undefined array key "id" on line 140 of /Applications/XAMPP/xamppfiles/htdocs/PRG02-2022-2023/advanced/week5/assignment/includes/classes/System/Handlers/AlbumHandler.php
+[19-12-2022 22:36] Undefined array key "id" on line 140 of /Applications/XAMPP/xamppfiles/htdocs/PRG02-2022-2023/advanced/week5/assignment/includes/classes/System/Handlers/AlbumHandler.php
+[19-12-2022 22:36] DB Error: ID 1000 is not available in the table albums on line 176 of /Applications/XAMPP/xamppfiles/htdocs/PRG02-2022-2023/advanced/week5/assignment/includes/classes/System/Databases/BaseObject.php
+[19-12-2022 22:37] Undefined array key "id" on line 93 of /Applications/XAMPP/xamppfiles/htdocs/PRG02-2022-2023/advanced/week5/assignment/includes/classes/System/Handlers/AlbumHandler.php
+[19-12-2022 22:37] DB Error: ID 14 is not available in the table albums on line 176 of /Applications/XAMPP/xamppfiles/htdocs/PRG02-2022-2023/advanced/week5/assignment/includes/classes/System/Databases/BaseObject.php
+[19-12-2022 22:38] Undefined array key "id" on line 162 of /Applications/XAMPP/xamppfiles/htdocs/PRG02-2022-2023/advanced/week5/assignment/includes/classes/System/Handlers/AlbumHandler.php
+[19-12-2022 22:39] DB Error: ID 170 is not available in the table albums on line 176 of /Applications/XAMPP/xamppfiles/htdocs/PRG02-2022-2023/advanced/week5/assignment/includes/classes/System/Databases/BaseObject.php
+[20-12-2022 10:59] DB Error: ID 100 is not available in the table albums on line 176 of /Applications/XAMPP/xamppfiles/htdocs/PRG02-2022-2023/advanced/week5/assignment/includes/classes/System/Databases/BaseObject.php

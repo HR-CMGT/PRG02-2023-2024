@@ -31,16 +31,16 @@ in settings.php moet aanpassen naar de waardes die voor jouw omgeving kloppen!
 ### Opdracht 2: Verder werken aan de eindopdracht
 
 In de uitwerking van deze les hebben we een structuur die als mooie basis kan gelden voor je eigen
-eindopdracht. We gaan we volgende les nog 1 iteratie op maken, maar dan zit je erg dicht tegen de
-deadline aan.
+eindopdracht. De pages map is omgezet naar classes waarmee het volledig OOP werkt. We gaan we volgende
+les nog 1 iteratie op maken, maar dan zit je erg dicht tegen de deadline aan.
 
-Ga verder met je eigenlijk gemaakte keuzes en kies alleen deze structuur als je jezelf daar comfortabel
+Ga verder met je eindopdracht en kies alleen deze structuur als je jezelf daar comfortabel
 in voelt. Ga in overleg met je docent als je twijfels hebt over je eigen structuur/keuzes.
 
 ### Opdracht 3: xDebug installeren
 
-In de les heb ik xDebug gedemonstreerd. Het is optioneel om dit ook voor jezelf te doen, maar je hebt
+In de les is xDebug gedemonstreerd. Het is optioneel om dit ook voor jezelf te doen, maar je hebt
 kunnen zien wat de voordelen zijn van het gebruik van deze tool t.o.v. handmatige `print_r` of `vardump`
 statements.
 
-Volg de handleiding in de [xDebug README](xdebug/XDEBUG.md) voor als je dit graag zelf wilt installeren!
+Volg de handleiding in de [xDebug README](xdebug/XDEBUG.md) als je dit graag zelf wilt installeren!
