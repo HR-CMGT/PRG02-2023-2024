@@ -28,7 +28,7 @@ Voor deze opdracht kan je gebruik maken van het voorbeeld `week5/examples/hidden
 In deze opdracht schrijf je de pseudo code voor de updatepagina. Hiervoor kun je (als hulpmiddel) gebruik maken van de drie vragen uit de eerdere lessen of van de [werkmethode](https://brightspace.hr.nl/d2l/le/lessons/28859/units/231506). Dezelfde drie vragen zitten hierin verwerkt met aanvullende informatie. Er is een stap toegevoegd waarin je terugkijkt naar je oplossing.
 
 > *   Schrijf de pseudo code van de pagina: update.php
-> *   Neem de pseudo code over in je editor en plaats deze als comments bovenaan de update.php pagina van `week5/start/create.php`
+> *   Neem de pseudo code over in je editor en plaats deze als comments bovenaan de update.php pagina van `week5/start/edit.php`
 >
 >
 > Disclaimer: het letterlijke antwoord op deze opdracht wordt niet door de docent gegeven, omdat het nadrukkelijk onderdeel is van de beoordeling. Je kunt natuurlijk wel feedback vragen aan de docent of medestudenten.
@@ -43,7 +43,7 @@ Je hebt nu alle ingrediënten om de updatepagina te kunnen maken. Gebruik bij de
 
 Loop je tegen een error aan, kijk dan of het [Debugstroomdiagram](https://brightspace.hr.nl/d2l/le/lessons/28859/units/231506) je kunt helpen.
 
-> Werk de updatepagina uit, zodat je een album kunt toevoegen aan de database.
+> Werk de updatepagina uit, zodat je een album kunt bijwerken in de database.
 >
 > *   Het formulier van de updatepagina wordt gevuld met albuminformatie van het specifieke album dat aangeklikt is op de indexpagina
 > *   Alle velden zijn verplichte velden. Voeg server-side validatie toe
