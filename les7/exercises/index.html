@@ -92,25 +92,10 @@
             Opdracht 3: Joins
         </h3>
         <p class="mb-4">
-            In deze opdracht ga je een zoekopdracht uitvoeren die in twee verschillende tabellen zoekt. Momenteel heb je al een tabel met <code>albums</code> met daarin de kolom <code>artist</code>, waarin de naam van een artist staat opgeslagen. Het is echter een goed idee om de artists in een eigen tabel op te slaan, zodat je eventueel meer informatie over de artist kan opslaan en ook andere entiteiten kan koppelen. Je zult hier eerst de database klaar voor moeten maken, voordat je een JOIN-query kan uitvoeren.
+            In deze opdracht ga je een zoekopdracht uitvoeren die in twee verschillende tabellen zoekt. Momenteel heb je al een tabel met <code>albums</code> met daarin de kolom <code>artist</code>, waarin de naam van een artist staat opgeslagen. Het is echter een goed idee om de <code>artists</code> in een eigen tabel op te slaan, zodat je eventueel meer informatie over de artist kan opslaan en ook andere entiteiten kan koppelen. Normaal gesproken moet je deze handmatig doorvoeren via phpMyAdmin, maar voor deze opdracht staat er een import voor je klaar:
         </p>
         <blockquote>
-            Voer de volgende stappen uit in de database via phpMyAdmin:
-            <ol>
-                <li>Voeg aan de tabel <code>albums</code> de kolom <code>artist_id</code> toe. Dit moet van type <code>int</code> zijn met als lengte <code>11</code> en als attribuut <code>UNSIGNED</code>.</li>
-                <li>
-                    Maak een nieuwe tabel aan met de naam <code>artists</code> en voeg de volgende kolommen toe:
-                    <ul>
-                        <li>id (type <code>int</code> met lengte <code>11</code> en attribuut <code>UNSIGNED</code>)</li>
-                        <li>name (type <code>varchar</code> met lengte <code>255</code>)</li>
-                    </ul>
-                </li>
-                <li>Importeer in phpMyAdmin het bestand <a href="./includes/les7-import.sql" download>les7/exercises/includes/les7-import.sql</a>. Hiermee worden de artiesten waar je de afgelopen lessen mee hebt gewerkt geïmporteerd. Ook wordt er een nieuw album toegevoegd van Adele.</li>
-                <li>Koppel nu handmatig ieder album aan bijbehorende artiest. Bijvoorbeeld: het album <code>Harry's House</code> is van de artist <code>Harry Styles</code>, die id <code>9</code> heeft.</code>
-                    <br>
-                    (hint: in de albums-tabel staat nog de kolom <code>artist</code>, waardoor je weet welke artist bij welk album hoort)</li>
-                <li>Verwijder tot slot in de tabel <code>albums</code> de kolom <code>artist</code>.</li>
-            </ol>
+            Importeer in phpMyAdmin het bestand <a href="les7-import.sql" download>les7/exercises/les7-import.sql</a>. Hiermee worden de artiesten waar je de afgelopen lessen mee hebt gewerkt geïmporteerd in een eigen tabel. Ook wordt er een nieuw album toegevoegd van Adele én worden alle albums gekoppeld aan de bijbehorende artist.
         </blockquote>
         <p class="mb-4">
             De database is nu gereed en je kan gaan oefenen met JOIN-queries. Voer de volgende queries uit in phpMyAdmin:
