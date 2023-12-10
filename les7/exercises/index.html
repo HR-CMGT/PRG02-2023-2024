@@ -95,7 +95,10 @@
             In deze opdracht ga je een zoekopdracht uitvoeren die in twee verschillende tabellen zoekt. Momenteel heb je al een tabel met <code>albums</code> met daarin de kolom <code>artist</code>, waarin de naam van een artist staat opgeslagen. Het is echter een goed idee om de <code>artists</code> in een eigen tabel op te slaan, zodat je eventueel meer informatie over de artist kan opslaan en ook andere entiteiten kan koppelen. Normaal gesproken moet je deze handmatig doorvoeren via phpMyAdmin, maar voor deze opdracht staat er een import voor je klaar:
         </p>
         <blockquote>
-            Importeer in phpMyAdmin het bestand <a href="les7-import.sql" download>les7/exercises/les7-import.sql</a>. Hiermee worden de artiesten waar je de afgelopen lessen mee hebt gewerkt geïmporteerd in een eigen tabel. Ook wordt er een nieuw album toegevoegd van Adele én worden alle albums gekoppeld aan de bijbehorende artist.
+            Importeer in phpMyAdmin (binnen je music_collection tabel!) het bestand <a href="les7-import.sql" download>les7/exercises/les7-import.sql</a>. Hiermee worden de artiesten waar je de afgelopen lessen mee hebt gewerkt
+            geïmporteerd in
+            een eigen tabel.
+            Ook wordt er een nieuw album toegevoegd van Adele én worden alle albums gekoppeld aan de bijbehorende artist.
         </blockquote>
         <p class="mb-4">
             De database is nu gereed en je kan gaan oefenen met JOIN-queries. Voer de volgende queries uit in phpMyAdmin:
@@ -108,6 +111,19 @@
                 <li>Selecteer alle albums met bijbehorende artiest en toon alleen de albumnaam en artiestennaam</li>
                 <li>Zoals je in het resultaat van de vorige query kunt zien, hebben beide tabellen een kolom die <code>name</code> heet. Zorg ervoor dat beide kolommen een unieke naam krijgen: <code>album_name</code> en <code>artist_name</code> (voorbeeld: <code>albums.name AS album_name</code>).</li>
             </ol>
+        </blockquote>
+
+        <!--Opdracht 4-->
+        <h3 class="title is-4">
+            Opdracht 4: JOINS in PHP (gevorderde niveau CRUD)
+        </h3>
+        <p class="mb-4">
+            Nu je database is aangepast zul je zien dat je vorige opdrachten niet meer exact werken. We hebben tenslotte de <code>artist</code> kolom verwijderd en vervangen met <code>
+            artist_id</code>.
+            Pas de JOIN-queries uit vorige opdracht toe in je eigen PHP-code uit eerdere opdrachten om de index en detail pagina's weer te herstellen.
+        </p>
+        <blockquote>
+            <strong>Let op:</strong> Ook de create en edit zullen niet meer 1-op-1 werken. Verzin een manier om het album veld te vervangen voor een dropdown waar je kunt kiezen voor de artiest.
         </blockquote>
     </div>
 </section>
