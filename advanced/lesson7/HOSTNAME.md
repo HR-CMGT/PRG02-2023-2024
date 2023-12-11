@@ -1,6 +1,6 @@
 To configure in XAMPP:
 
-- Edit `/XAMPP-path/etc/extra/httpd-vhosts.conf`
+- Edit `/<XAMPP-path>/etc/extra/httpd-vhosts.conf`
 
 First add localhost as default to prevent localhost from being broken
 (please change the `DocumentRoot` to your own path):
@@ -20,8 +20,8 @@ If you continue in the next weeks you can repeat the same trick again and again)
 ```text
 <VirtualHost *:80>
     ServerAdmin webmaster@dummy-host2.example.com
-    DocumentRoot "/Applications/XAMPP/xamppfiles/htdocs/PRG02/advanced/week4/example/templating"
-    ServerName templating-w4.localhost
+    DocumentRoot "/Applications/XAMPP/xamppfiles/htdocs/PRG02-2023-2024/advanced/lesson7/public"
+    ServerName music-collection-l7.localhost
     ErrorLog "logs/music-collection.local-error_log"
     CustomLog "logs/music-collection.local-access_log" common
 </VirtualHost>
@@ -36,10 +36,10 @@ Remove the `#` before: `Include etc/extra/httpd-vhosts.conf`
 Finally, change your hosts file with the following lines:
 
 ```text
-127.0.0.1       templating-w4.localhost
+127.0.0.1       music-collection-l7.localhost.localhost
 ```
 
 Mac: Open terminal and run `sudo nano /etc/hosts`
 Windows edit the `C:\Windows\System 32\drivers\etc\hosts.txt` file as administrator
 
-Tada! Now you can visit `http://templating-w4.localhost` in your browser.
+Tada! Now you can visit `http://music-collection-l7.localhost.localhost` in your browser.
