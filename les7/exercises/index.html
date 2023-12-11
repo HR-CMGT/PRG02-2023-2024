@@ -50,7 +50,7 @@
                 href="../../les6/exercises/register.php" target="_blank">register.php</a> pagina <a href="../../les6/exercises" target="_blank">uit de vorige les</a> toevoegen.
         </p>
         <blockquote>
-            Bezoek de pagina <a href="http://localhost/PRG02-2023-2024/les7/exercises/SQL-injection.php?id=2" target="_blank">http://localhost/PRG02-2023-2024/les7/exercises/SQL-injection.php?id=2</a>.
+            Bezoek de pagina <a href="SQL-injection.php?id=2" target="_blank">les7/exercises/SQL-injection.php?id=2</a>.
             In de link zie je staan <code>id=2</code>. Vervang de 2 door het id van de users die als laatste is toegevoegd
             aan de database.
         </blockquote>
@@ -62,7 +62,7 @@
         <blockquote>
             Zet achter het '=' teken een willekeurig id (bijv. 4) en daarna de tekst <code> OR 1 = 1</code>.
             Je krijgt dan de volgende link:
-             <a href="http://localhost/PRG02-2023-2024/les7/exercises/SQL-injection.php?id=4%27%20OR%20%271%27=%271" target="_blank">http://localhost/PRG02-2023-2024/les7/exercises/SQL-injection.php?id=4' OR '1'='1</a>.
+             <a href="SQL-injection.php?id=4%27%20OR%20%271%27=%271" target="_blank">les7/exercises/SQL-injection.php?id=4' OR '1'='1</a>.
         </blockquote>
         <p class="mb-4">
             Je zult nu zien dat je altijd de eerste user uit de database te zien krijgt. Dit komt omdat we de SQL query
@@ -89,18 +89,18 @@
 
         <!--Opdracht 3-->
         <h3 class="title is-4">
-            Opdracht 3a: Joins
+            Opdracht 3: Joins
         </h3>
         <p class="mb-4">
-            In deze opdracht ga je een zoekopdracht uitvoeren die in twee verschillende tabellen zoekt. Momenteel heb je al een tabel met <code>albums</code> met daarin de kolom <code>artist</code>, waarin de naam van een artist staat opgeslagen. Het is echter een goed idee om de <code>artists</code> in een eigen tabel op te slaan, zodat je eventueel meer informatie over de artist kan opslaan en ook andere entiteiten kan koppelen. Normaal gesproken moet je deze handmatig doorvoeren via phpMyAdmin, maar voor deze opdracht staat er een import voor je klaar:
+            In deze opdracht ga je een zoekopdracht uitvoeren die in twee verschillende tabellen zoekt. Momenteel heb je al een tabel met <code>albums</code> met daarin de kolom <code>artist</code>, waarin de naam van een artist staat opgeslagen. Het is echter een goed idee om de <code>artists</code> in een eigen tabel op te slaan, zodat je eventueel meer informatie over de artist kan opslaan en ook andere entiteiten kan koppelen. Normaal gesproken moet je deze wijzigingen handmatig doorvoeren via phpMyAdmin, maar voor deze opdracht staat er een import voor je klaar:
         </p>
         <blockquote>
-            Importeer in phpMyAdmin het bestand <a href="music_collection_advanced.sql" download>les7/exercises/music_collection_advanced.sql</a>. Er wordt nu een geheel nieuwe database geïmporteerd, genaamd <code>music_collection_advanced</code>, zodat je huidige database ongewijzigd blijft. Het bevat een tabel met <code>artists</code> en een tabel met <code>albums</code>, die een verwijzing hebben naar de bijbehorende artist. Ook wordt er een nieuw album toegevoegd van Adele.
+            Importeer in phpMyAdmin het bestand <a href="music_collection_advanced.sql" download>les7/exercises/music_collection_advanced.sql</a>. Er wordt nu een geheel nieuwe database geïmporteerd, genaamd <code>music_collection_advanced</code>, zodat je huidige database ongewijzigd blijft. Het bevat een tabel met <code>albums</code>, waarbij ieder album een verwijziging heeft naar de nieuwe tabel met <code>artists</code>. Ook wordt er een nieuw album toegevoegd van Adele.
             <br>
             <i><strong>Let op:</strong> de tabel <code>users</code> zit <strong>niet</strong> in deze import.</i>
         </blockquote>
         <p class="mb-4">
-            De database is nu gereed en je kan gaan oefenen met JOIN-queries. Voer de volgende queries uit in phpMyAdmin in de nieuw aangemaakte database:
+            De database is nu gereed en je kan gaan oefenen met JOIN-queries. Voer de volgende queries uit in phpMyAdmin in de nieuw aangemaakte database <code>music_collection_advanced</code>:
         </p>
         <blockquote>
             <ol>
@@ -111,13 +111,6 @@
                 <li>Zoals je in het resultaat van de vorige query kunt zien, hebben beide tabellen een kolom die <code>name</code> heet. Zorg ervoor dat beide kolommen een unieke naam krijgen: <code>album_name</code> en <code>artist_name</code> (voorbeeld: <code>albums.name AS album_name</code>).</li>
             </ol>
         </blockquote>
-
-        <h3 class="title is-4">
-            Opdracht 3b: Optioneel zonder JOINS werken
-        </h3>
-        <p class="mb-4">
-            In de import van opdracht 3a is in de tabel <code>albums</code> de kolom <code>artist</code> hernoemd naar <code>artist_id</code>. Hierdoor werken de pagina's van de muziekcollectie die je tot nu toe hebt gemaakt niet meer. Dit moet je oplossen door opdracht 4 uit te voeren. Mocht je er nou voor kiezen om in jouw eindopdracht <strong>niet</strong> met JOINS te willen werken en dus geen relaties in de database te hebben, importeer dan nogmaals <a href="../../les3/exercises/music_collection.sql" download>les3/exercises/music_collection.sql</a>, zodat de kolom <code>artist</code> er weer in staat.
-        </p>
 
         <!--Opdracht 4-->
         <h3 class="title is-4">
