@@ -89,7 +89,7 @@
 
         <!--Opdracht 3-->
         <h3 class="title is-4">
-            Opdracht 3: Joins
+            Opdracht 3a: Joins
         </h3>
         <p class="mb-4">
             In deze opdracht ga je een zoekopdracht uitvoeren die in twee verschillende tabellen zoekt. Momenteel heb je al een tabel met <code>albums</code> met daarin de kolom <code>artist</code>, waarin de naam van een artist staat opgeslagen. Het is echter een goed idee om de <code>artists</code> in een eigen tabel op te slaan, zodat je eventueel meer informatie over de artist kan opslaan en ook andere entiteiten kan koppelen. Normaal gesproken moet je deze handmatig doorvoeren via phpMyAdmin, maar voor deze opdracht staat er een import voor je klaar:
@@ -112,6 +112,13 @@
                 <li>Zoals je in het resultaat van de vorige query kunt zien, hebben beide tabellen een kolom die <code>name</code> heet. Zorg ervoor dat beide kolommen een unieke naam krijgen: <code>album_name</code> en <code>artist_name</code> (voorbeeld: <code>albums.name AS album_name</code>).</li>
             </ol>
         </blockquote>
+
+        <h3 class="title is-4">
+            Opdracht 3b: Optioneel zonder JOINS werken
+        </h3>
+        <p class="mb-4">
+            In de import van opdracht 3a is in de tabel <code>albums</code> de kolom <code>artist</code> hernoemd naar <code>artist_id</code>. Hierdoor werken de pagina's van de muziekcollectie die je tot nu toe hebt gemaakt niet meer. Dit moet je oplossen door opdracht 4 uit te voeren. Mocht je er nou voor kiezen om in jouw eindopdracht <strong>niet</strong> met JOINS te willen werken en dus geen relaties in de database te hebben, importeer dan nogmaals <a href="../../les3/exercises/music_collection.sql">les3/exercises/music_collection.sql</a>, zodat de kolom <code>artist</code> er weer in staat.
+        </p>
 
         <!--Opdracht 4-->
         <h3 class="title is-4">
