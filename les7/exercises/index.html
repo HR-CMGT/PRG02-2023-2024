@@ -95,13 +95,12 @@
             In deze opdracht ga je een zoekopdracht uitvoeren die in twee verschillende tabellen zoekt. Momenteel heb je al een tabel met <code>albums</code> met daarin de kolom <code>artist</code>, waarin de naam van een artist staat opgeslagen. Het is echter een goed idee om de <code>artists</code> in een eigen tabel op te slaan, zodat je eventueel meer informatie over de artist kan opslaan en ook andere entiteiten kan koppelen. Normaal gesproken moet je deze handmatig doorvoeren via phpMyAdmin, maar voor deze opdracht staat er een import voor je klaar:
         </p>
         <blockquote>
-            Importeer in phpMyAdmin (binnen je music_collection tabel!) het bestand <a href="les7-import.sql" download>les7/exercises/les7-import.sql</a>. Hiermee worden de artiesten waar je de afgelopen lessen mee hebt gewerkt
-            geïmporteerd in
-            een eigen tabel.
-            Ook wordt er een nieuw album toegevoegd van Adele én worden alle albums gekoppeld aan de bijbehorende artist.
+            Importeer in phpMyAdmin het bestand <a href="music_collection_advanced.sql" download>les7/exercises/music_collection_advanced.sql</a>. Er wordt nu een geheel nieuwe database geïmporteerd, genaamd <code>music_collection_advanced</code>, zodat je huidige database ongewijzigd blijft. Het bevat een tabel met <code>artists</code> en een tabel met <code>albums</code>, die een verwijzing hebben naar de bijbehorende artist. Ook wordt er een nieuw album toegevoegd van Adele.
+            <br>
+            <i><strong>Let op:</strong> de tabel <code>users</code> zit <strong>niet</strong> in deze import.</i>
         </blockquote>
         <p class="mb-4">
-            De database is nu gereed en je kan gaan oefenen met JOIN-queries. Voer de volgende queries uit in phpMyAdmin:
+            De database is nu gereed en je kan gaan oefenen met JOIN-queries. Voer de volgende queries uit in phpMyAdmin in de nieuw aangemaakte database:
         </p>
         <blockquote>
             <ol>

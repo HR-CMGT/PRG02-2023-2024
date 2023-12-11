@@ -12,15 +12,64 @@ START TRANSACTION;
 SET time_zone = "+00:00";
 
 
+/*!40101 SET @OLD_CHARACTER_SET_CLIENT=@@CHARACTER_SET_CLIENT */;
+/*!40101 SET @OLD_CHARACTER_SET_RESULTS=@@CHARACTER_SET_RESULTS */;
+/*!40101 SET @OLD_COLLATION_CONNECTION=@@COLLATION_CONNECTION */;
+/*!40101 SET NAMES utf8mb4 */;
+
 --
--- Aanpassingen voor tabel `albums`
+-- Database: `music_collection_advanced`
 --
-ALTER TABLE `albums` DROP COLUMN `artist`;
-ALTER TABLE `albums` ADD `artist_id` int(11) UNSIGNED NOT NULL AFTER `name`;
+CREATE DATABASE IF NOT EXISTS `music_collection_advanced` DEFAULT CHARACTER SET utf8mb4 COLLATE utf8mb4_general_ci;
+USE `music_collection_advanced`;
+
+-- --------------------------------------------------------
+
+--
+-- Tabelstructuur voor tabel `albums`
+--
+
+DROP TABLE IF EXISTS `albums`;
+CREATE TABLE IF NOT EXISTS `albums` (
+  `id` int(11) UNSIGNED NOT NULL AUTO_INCREMENT,
+  `name` varchar(50) NOT NULL,
+  `artist_id` int(11) UNSIGNED NOT NULL,
+  `genre` varchar(20) NOT NULL,
+  `year` smallint(6) UNSIGNED NOT NULL,
+  `tracks` tinyint(4) UNSIGNED NOT NULL,
+  PRIMARY KEY (`id`)
+) ENGINE=InnoDB AUTO_INCREMENT=20 DEFAULT CHARSET=utf8mb4;
+
+--
+-- Gegevens worden geëxporteerd voor tabel `albums`
+--
+
+INSERT INTO `albums` (`id`, `name`, `artist_id`, `genre`, `year`, `tracks`) VALUES
+(1, 'Harry\'s House',                   0, 'Pop', 2022, 13),
+(2, '=',                                0, 'Pop', 2021, 14),
+(3, 'The Highlights',                   0, 'R&B', 2021, 18),
+(4, '30',                               0, 'Pop', 2021, 12),
+(5, 'AM',                               0, 'Rock', 2013, 12),
+(6, 'Future Nostalgia',                 0, 'Pop', 2020, 11),
+(7, 'Happier Than Ever',                0, 'Pop', 2021, 16),
+(8, 'Renaissance',                      0, 'R&B', 2022, 16),
+(9, 'Mr. Morale & The Big Steppers',    0, 'Rap', 2022, 19),
+(10, 'Live @ Rome Olympic Stadium',     0, 'Rock', 2014, 13),
+(11, 'Systematic Chaos',                0, 'Progressive Rock', 2007, 8),
+(12, 'United We Are',                   0, 'House', 2016, 14),
+(13, 'Gold Cobra',                      0, 'Rock', 2011, 16),
+(14, 'Mijn Ikken',                      0, 'Nederpop', 2006, 12),
+(15, 'Love Part 1',                      0, 'Rock', 2011, 11),
+(16, 'Unstoppable Momentum',            0, 'Rock', 2013, 11),
+(17, 'Cut Your Teeth',                  0, 'Chillstep', 2014, 3),
+(18, 'This Is War',                     0, 'Rock', 2009, 12),
+(19, 'The Greatest Hits',               0, 'Rock', 1980, 12);
 
 -- Add new album
 INSERT INTO `albums` (`name`, `artist_id`, `genre`, `year`, `tracks`)
 VALUES ('19', 11, 'Pop', 2008, 12);
+
+-- --------------------------------------------------------
 
 --
 -- Tabelstructuur voor tabel `artists`
@@ -31,7 +80,7 @@ CREATE TABLE `artists` (
                            `id` int(11) UNSIGNED NOT NULL AUTO_INCREMENT,
                            `name` varchar(50) NOT NULL,
                            PRIMARY KEY (`id`)
-) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
+) ENGINE=InnoDB AUTO_INCREMENT=20 DEFAULT CHARSET=utf8mb4;
 
 --
 -- Gegevens worden geëxporteerd voor tabel `artists`
@@ -102,6 +151,8 @@ ALTER TABLE `albums`
 ALTER TABLE `albums`
     ADD CONSTRAINT `albums_ibfk_1` FOREIGN KEY (`artist_id`) REFERENCES `artists` (`id`) ON DELETE CASCADE ON UPDATE NO ACTION;
 
-
     COMMIT;
 
+/*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
+/*!40101 SET CHARACTER_SET_RESULTS=@OLD_CHARACTER_SET_RESULTS */;
+/*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
