@@ -26,6 +26,7 @@ abstract class BaseObject
     private string $tableName;
     protected \PDO $db;
     private Logger $logger;
+    private array $dynamicProperties = [];
 
     /**
      * BaseObject constructor.
@@ -65,6 +66,29 @@ abstract class BaseObject
         foreach ($data as $key => $value) {
             $this->{$key} = $value;
         }
+    }
+
+    /**
+     * PHP8.2 fix for dynamic properties
+     *
+     * @param string $name
+     * @param $value
+     * @return void
+     */
+    public function __set(string $name, $value): void
+    {
+        $this->dynamicProperties[$name] = $value;
+    }
+
+    /**
+     * PHP8.2 fix for dynamic properties
+     *
+     * @param string $name
+     * @return mixed
+     */
+    public function __get(string $name): mixed
+    {
+        return $this->dynamicProperties[$name];
     }
 
     /**
