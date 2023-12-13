@@ -60,26 +60,25 @@
             We gaan nu de query beïnvloeden door achter het '=' teken een andere invoer te doen.
         </p>
         <blockquote>
-            Zet achter het '=' teken een willekeurig id (bijv. 4) en daarna de tekst <code> OR 1 = 1</code>.
+            Zet in de URL achter <strong>id=</strong> een willekeurig id (bijv. 4) en daarna de tekst <code>' OR '1' = '1</code>.
             Je krijgt dan de volgende link:
              <a href="SQL-injection.php?id=4%27%20OR%20%271%27=%271" target="_blank">les7/exercises/SQL-injection.php?id=4' OR '1'='1</a>.
         </blockquote>
         <p class="mb-4">
             Je zult nu zien dat je altijd de eerste user uit de database te zien krijgt. Dit komt omdat we de SQL query
-            beïnvloedt hebben. De query <code>SELECT * FROM users WHERE id=2</code> haalt een specifieke user op uit de
-            database. Maar door de toevoeging <code>OR 1 = 1</code>, wordt de query <code>SELECT * FROM users WHERE id=2 OR 1 = 1</code>.
-            Er staat nu: "Selecteer een gebruiker als zijn id = 2 of als 1 = 1" en dat laatste is altijd waar. Hierdoor
+            beïnvloedt hebben. De query <code>SELECT * FROM users WHERE id='2'</code> haalt een specifieke user op uit de
+            database. Maar door de toevoeging <code>' OR '1' = '1</code>, wordt de query <code>SELECT * FROM users WHERE id='2' OR '1'='1'</code>.
+            Er staat nu: "Selecteer een gebruiker als zijn id = '2' óf als '1 = '1'" en dat laatste is altijd waar. Hierdoor
             worden alle users geselecteerd. De code <code>$user = mysqli_fetch_assoc($result);</code> kiest vervolgens
             altijd de eerste gebruiker.
         </p>
         <blockquote>
-            Verder in de PHP-pagina de check van het aantal rijen in het resultaat. Na de SQL-query moet er precies 1 rij terugkomen.
-            Bezoek daarna nogmaals bovenstaande link.
+            Verderop in de PHP-pagina wordt gecheckt of er meer dan 0 resultaten zijn. Op deze pagina willen we echter altijd precies 1 user hebben. Pas de check hierop aan en bezoek daarna nogmaals bovenstaande link.
         </blockquote>
         <p>
             Je ziet nu dat de eerste user niet wordt opgehaald. Toch is deze beveiliging nog niet voldoende. Om er zeker van
             te zijn dat de query die uitgevoerd wordt niet beïnvloed kan worden door een bezoeker, gaan we de input (vanuit de
-            URL) beveiligen. We willen voorkomen die iemand <code>' '</code> kan gebruiken zodat de query anders wordt.
+            URL) beveiligen. We willen voorkomen dat iemand <code>'</code> kan gebruiken, waardoor de query veranderd kan worden.
             Dit doen we met de functie <code>mysqli_escape_string()</code>, zie <a href="https://www.php.net/manual/en/mysqli.real-escape-string.php" target="_blank">PHP.net</a>
         </p>
         <blockquote>
@@ -105,8 +104,8 @@
         <blockquote>
             <ol>
                 <li>Selecteer alle albums met bijbehorende artiest</li>
-                <li>Selecteer alle albums met bijbehorende artiest, gesorteerd op albumnaam</li>
                 <li>Selecteer alle albums van de artiest <code>Adele</code></li>
+                <li>Selecteer alle albums met bijbehorende artiest, gesorteerd op albumnaam</li>
                 <li>Selecteer alle albums met bijbehorende artiest en toon alleen de albumnaam en artiestennaam</li>
                 <li>Zoals je in het resultaat van de vorige query kunt zien, hebben beide tabellen een kolom die <code>name</code> heet. Zorg ervoor dat beide kolommen een unieke naam krijgen: <code>album_name</code> en <code>artist_name</code> (voorbeeld: <code>albums.name AS album_name</code>).</li>
             </ol>
