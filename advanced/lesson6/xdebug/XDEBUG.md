@@ -16,9 +16,62 @@ XAMPP omgeving.
 In je `php.ini` (gebruik de phpinfo() functie op een webpagina als je niet weet waar je
 deze kunt vinden) moet je het volgende toevoegen helemaal onderaan het bestand:
 
-**Mac:**
-Volg: https://juffalow.com/blog/php/how-to-install-xdebug-on-macos-xampp/ en plaats daarna
-volgende regels in je `php.ini`.
+### Mac
+
+#### Installeren benodigde packages via Homebrew
+
+Mocht je Homebrew nog niet hebben geïnstalleerd kun je dat uitvoeren via volgend commando:
+
+```bash
+/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+```
+
+Daarna installeer je volgende pakketten via homebrew. Deze zijn nodig om xDebug straks goed
+te kunnen installeren binnen je PHP:
+
+```bash
+brew install autoconf automake libtool
+```
+
+> Aanname: Toen je XAMPP hebt geïnstalleerd heb je de developer tools ook aangevinkt. Zo niet,
+> dan moet je XAMPP opnieuw installeren met de juiste vinkjes aangezet.
+> ![Step 1](xampp-installation.png)
+
+#### xDebug compilen naar je PHP-installatie
+
+Open je terminal en draai de volgende commando's:
+
+```bash
+git clone https://github.com/xdebug/xdebug.git
+cd xdebug
+phpize
+```
+
+Afhankelijk van of je een M1 of Intel-machine hebt moet je een ander commando draaien.
+
+**Intel**
+
+`pecl install xdebug`
+
+**M1**
+
+Nu hangt er nog vanaf of je een x86_64 of arm64 architectuur hebt. Dit kun je controleren met
+het volgende commando:
+
+`file `which php`
+
+Voor arm64:
+
+`arch -arm64 sudo pecl install xdebug`
+
+Voor x64_64:
+
+`arch -x86_64 sudo pecl install xdebug`
+
+> Mocht je een foutmelding krijgen omdat pecl niet bestaat, kun je `pecl` in bovenstaand commando
+> vervangen door `/Applications/XAMPP/bin/pecl`
+
+Tenslotte voeg je de volgende regels toe onderaan je `php.ini`:
 
 ```ini
 zend_extension = xdebug.so
@@ -26,9 +79,12 @@ xdebug.mode = develop,debug
 xdebug.start_with_request = yes
 ```
 
-**Windows:**
+### Windows
+
 Volg de wizard: https://xdebug.org/wizard om de juiste package te kunnen downloaden
 en configureren.
+
+Tenslotte voeg je de volgende regels toe onderaan je `php.ini`:
 
 ```ini
 zend_extension = xdebug
@@ -48,7 +104,7 @@ kun je deze installeren:
 - [FireFox](https://addons.mozilla.org/en-US/firefox/addon/xdebug-helper-for-firefox/)
 - [Safari](https://apps.apple.com/app/safari-xdebug-toggle/id1437227804?mt=12)
 
-## Gebruik
+## Gebruik browser & phpStorm
 
 Nu je alles hebt geïnstalleerd kun je xDebug in gebruikt gaan nemen, daarvoor kun je de volgende
 stappen uitvoeren.
@@ -65,3 +121,9 @@ stappen uitvoeren.
 5. **YEAH!** Daar is je debuginformatie. Gefeliciteerd, vanaf nu heb je geen `print_r` en `var_dump`
    meer nodig. Welkom in de wereld van professioneel debuggen 🥳
    ![Step 5](configure-step5.png)
+
+## Referenties
+
+- https://blog.devsense.com/2022/install-xdebug-for-xampp-on-mac
+- https://xdebug.org/wizard
+- https://www.jetbrains.com/help/phpstorm/2023.3/zero-configuration-debugging.html?utm_source=product&utm_medium=link&utm_campaign=PS&utm_content=2023.3
