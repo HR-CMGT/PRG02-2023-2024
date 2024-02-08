@@ -58,7 +58,7 @@ Afhankelijk van of je een M1 of Intel-machine hebt moet je een ander commando dr
 Nu hangt er nog vanaf of je een x86_64 of arm64 architectuur hebt. Dit kun je controleren met
 het volgende commando:
 
-`file `which php`
+``file `which php` ``
 
 Voor arm64:
 
